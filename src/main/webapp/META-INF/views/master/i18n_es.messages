@@ -46,6 +46,7 @@ master.menu.anonymous.bulletin.toledo.list	 	= Boletines de Toledo
 
 master.menu.authenticated = Autenticado
 master.menu.authenticated.inquiry = Lista de consultas
+master.menu.authenticated.overture = Lista de propuestas
 
 # master.menu.administrator ###################################################
 
