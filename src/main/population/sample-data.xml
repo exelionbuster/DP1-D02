@@ -105,5 +105,77 @@
     <property name="text" value="La vida es como un juego de cartas, unas veces se gana y otras se pierde."/>
     <property name="luckyNumber" value="27"/>
   </bean>
+  
+    <!-- Inquiries -->
+
+  <bean id="inquiry01" class="acme.entities.inquiries.Inquiry" >
+    <property name="title" value="Inquiry 1"/>
+    <property name="creationDate" value="2019/06/21 00:30"/>
+    <property name="deadline" value="2021/06/22 00:00"/>
+    <property name="description" value="This is a description!"/>
+    <property name="minMoney">
+    	<ref bean="money01"/>
+    </property>
+    <property name="maxMoney">
+    	<ref bean="money02"/>
+    </property>
+    <property name="links" value=""/>
+  </bean>
+ 
+  <bean id="inquiry02" class="acme.entities.inquiries.Inquiry" >
+    <property name="title" value="Inquiry 2"/>
+    <property name="creationDate" value="2019/05/13 17:30"/>
+    <property name="deadline" value="2019/07/19 22:30"/>
+    <property name="description" value="This is a description!"/>
+    <property name="minMoney">
+    	<ref bean="money03"/>
+    </property>
+    <property name="maxMoney">
+    	<ref bean="money04"/>
+    </property>
+    <property name="links" value=""/>
+  </bean>
+
+  <bean id="inquiry03" class="acme.entities.inquiries.Inquiry" >
+    <property name="title" value="Inquiry 3"/>
+    <property name="creationDate" value="2020/01/15 15:35"/>
+    <property name="deadline" value="2020/10/11 17:05"/>
+    <property name="description" value="This is a description!"/>
+    <property name="minMoney">
+    	<ref bean="money04"/>
+    </property>
+    <property name="maxMoney">
+    	<ref bean="money05"/>
+    </property>
+    <property name="links" value=""/>
+  </bean>
+  
+  <!-- Money -->
+
+  <bean id="money01" class="acme.framework.datatypes.Money" >
+  	<property name="amount" value="200"/>
+  	<property name="currency" value="€"/>
+  </bean>
+    
+  <bean id="money02" class="acme.framework.datatypes.Money" >
+  	<property name="amount" value="500"/>
+  	<property name="currency" value="€"/>
+  </bean>  
+      
+  <bean id="money03" class="acme.framework.datatypes.Money" >
+  	<property name="amount" value="100"/>
+  	<property name="currency" value="€"/>
+  </bean>
+
+  <bean id="money04" class="acme.framework.datatypes.Money" >
+  	<property name="amount" value="250"/>
+  	<property name="currency" value="€"/>
+  </bean>
+    
+  <bean id="money05" class="acme.framework.datatypes.Money" >
+  	<property name="amount" value="700"/>
+  	<property name="currency" value="€"/>
+  </bean>
+  
 
 </beans>
