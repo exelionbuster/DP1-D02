@@ -42,6 +42,10 @@ master.menu.anonymous.bulletin.fernandez.list 	= Boletines de Fernández
 master.menu.anonymous.bulletin.toledo.create 	= Crear un boletín para Toledo
 master.menu.anonymous.bulletin.toledo.list	 	= Boletines de Toledo
 
+# master.menu.authenticated ###################################################
+
+master.menu.authenticated = Autenticado
+master.menu.authenticated.inquiry = Lista de consultas
 
 # master.menu.administrator ###################################################
 
