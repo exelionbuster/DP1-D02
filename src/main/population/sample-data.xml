@@ -150,6 +150,52 @@
     <property name="links" value=""/>
   </bean>
   
+    <!-- Overtures -->
+
+  <bean id="overture01" class="acme.entities.overtures.Overture" >
+    <property name="title" value="Overture 1"/>
+    <property name="creationDate" value="2018/03/11 10:30"/>
+    <property name="deadline" value="2021/01/12 00:00"/>
+    <property name="description" value="This is a description!"/>
+    <property name="minMoney">
+    	<ref bean="money01"/>
+    </property>
+    <property name="maxMoney">
+    	<ref bean="money02"/>
+    </property>
+    <property name="links" value="https://www.google.com/; https://www.youtube.com/"/>
+  </bean> 
+ 
+  <bean id="overture02" class="acme.entities.overtures.Overture" >
+    <property name="title" value="Overture 2"/>
+    <property name="creationDate" value="2017/05/13 13:30"/>
+    <property name="deadline" value="2022/09/12 11:30"/>
+    <property name="description" value="This is a description!"/>
+    <property name="minMoney">
+    	<ref bean="money03"/> 
+    </property>
+    <property name="maxMoney">
+    	<ref bean="money04"/>
+    </property>
+    <property name="links" value="https://www.google.com/"/>
+  </bean>
+
+  <bean id="overture03" class="acme.entities.overtures.Overture" >
+    <property name="title" value="Overture 3"/>
+    <property name="creationDate" value="2020/01/25 09:45"/>
+    <property name="deadline" value="2020/06/28 07:55"/>
+    <property name="description" value="This is a description!"/>
+    <property name="minMoney">
+    	<ref bean="money04"/>
+    </property>
+    <property name="maxMoney">
+    	<ref bean="money05"/>
+    </property>
+    <property name="links" value=""/>
+  </bean>
+  
+  
+  
   <!-- Money -->
 
   <bean id="money01" class="acme.framework.datatypes.Money" >
