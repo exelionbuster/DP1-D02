@@ -162,6 +162,182 @@
 		<property name="openSource" value="false" />
 		<property name="stars" value="-5.0" />
 	</bean>
+
+    <!-- Inquiries -->
+
+  <bean id="inquiry01" class="acme.entities.inquiries.Inquiry" >
+    <property name="title" value="Inquiry 1"/>
+    <property name="creationDate" value="2019/06/21 00:30"/>
+    <property name="deadline" value="2021/06/22 00:00"/>
+    <property name="description" value="This is a description!"/>
+    <property name="minMoney">
+    	<ref bean="money01"/>
+    </property>
+    <property name="maxMoney">
+    	<ref bean="money02"/>
+    </property>
+    <property name="contactEmail" value="contactEmail@gmail.com"/>
+  </bean>
+ 
+  <bean id="inquiry02" class="acme.entities.inquiries.Inquiry" >
+    <property name="title" value="Inquiry 2"/>
+    <property name="creationDate" value="2019/05/13 17:30"/>
+    <property name="deadline" value="2019/07/19 22:30"/>
+    <property name="description" value="This is a description!"/>
+    <property name="minMoney">
+    	<ref bean="money03"/>
+    </property>
+    <property name="maxMoney">
+    	<ref bean="money04"/>
+    </property>
+    <property name="contactEmail" value="contactEmail@gmail.com"/>
+  </bean>
+
+  <bean id="inquiry03" class="acme.entities.inquiries.Inquiry" >
+    <property name="title" value="Inquiry 3"/>
+    <property name="creationDate" value="2020/01/15 15:35"/>
+    <property name="deadline" value="2020/10/11 17:05"/>
+    <property name="description" value="This is a description!"/>
+    <property name="minMoney">
+    	<ref bean="money04"/>
+    </property>
+    <property name="maxMoney">
+    	<ref bean="money05"/>
+    </property>
+    <property name="contactEmail" value="contactEmail@gmail.com"/>
+  </bean>
   
+    <!-- Overtures -->
+
+  <bean id="overture01" class="acme.entities.overtures.Overture" >
+    <property name="title" value="Overture 1"/>
+    <property name="creationDate" value="2018/03/11 10:30"/>
+    <property name="deadline" value="2021/01/12 00:00"/>
+    <property name="description" value="This is a description!"/>
+    <property name="minMoney">
+    	<ref bean="money01"/>
+    </property>
+    <property name="maxMoney">
+    	<ref bean="money02"/>
+    </property>
+    <property name="contactEmail" value="contactEmail@gmail.com"/>
+  </bean> 
+ 
+  <bean id="overture02" class="acme.entities.overtures.Overture" >
+    <property name="title" value="Overture 2"/>
+    <property name="creationDate" value="2017/05/13 13:30"/>
+    <property name="deadline" value="2022/09/12 11:30"/>
+    <property name="description" value="This is a description!"/>
+    <property name="minMoney">
+    	<ref bean="money03"/> 
+    </property>
+    <property name="maxMoney">
+    	<ref bean="money04"/>
+    </property>
+    <property name="contactEmail" value="contactEmail@gmail.com"/>
+  </bean>
+
+  <bean id="overture03" class="acme.entities.overtures.Overture" >
+    <property name="title" value="Overture 3"/>
+    <property name="creationDate" value="2020/01/25 09:45"/>
+    <property name="deadline" value="2020/06/28 07:55"/>
+    <property name="description" value="This is a description!"/>
+    <property name="minMoney">
+    	<ref bean="money04"/>
+    </property>
+    <property name="maxMoney">
+    	<ref bean="money05"/>
+    </property>
+    <property name="contactEmail" value="contactEmail@gmail.com"/>
+  </bean>
+  
+  
+  <!-- Challenges -->
+  
+  <bean id="challenge01" class="acme.entities.challenges.Challenge">
+  	<property name="title" value="Challenge 1"/>
+  	<property name="deadline" value="2020/10/04 23:59"/>
+  	<property name="description" value="The first to finish wins!"/>
+  	<property name="rookieGoal" value="This is a rookie goal!"/>
+  	<property name="rookieReward">
+  		<ref bean="money03"/>
+  	</property>
+  	<property name="averageGoal" value="This is a average goal!"/>
+  	<property name="averageReward">
+  		<ref bean="money04"/>
+  	</property>
+  	<property name="expertGoal" value="This is a expert goal!"/>
+  	<property name="expertReward">
+  		<ref bean="money02"/>
+  	</property>
+  </bean>
+  
+  <bean id="challenge02" class="acme.entities.challenges.Challenge">
+  	<property name="title" value="Challenge 2"/>
+  	<property name="deadline" value="2020/01/09 23:59"/>
+  	<property name="description" value="Jump high and win!"/>
+  	<property name="rookieGoal" value="This is a rookie goal!"/>
+  	<property name="rookieReward">
+  		<ref bean="money04"/>
+  	</property>
+  	<property name="averageGoal" value="This is a average goal!"/>
+  	<property name="averageReward">
+  		<ref bean="money03"/>
+  	</property>
+  	<property name="expertGoal" value="This is a expert goal!"/>
+  	<property name="expertReward">
+  		<ref bean="money05"/>
+  	</property>
+  </bean>
+  
+  <bean id="challenge03" class="acme.entities.challenges.Challenge">
+  	<property name="title" value="Challenge 1"/>
+  	<property name="deadline" value="2021/11/24 21:47"/>
+  	<property name="description" value="The fastest will win!"/>
+  	<property name="rookieGoal" value="This is a rookie goal!"/>
+  	<property name="rookieReward">
+  		<ref bean="money02"/>
+  	</property>
+  	<property name="averageGoal" value="This is a average goal!"/>
+  	<property name="averageReward">
+  		<ref bean="money05"/>
+  	</property>
+  	<property name="expertGoal" value="This is a expert goal!"/>
+  	<property name="expertReward">
+  		<ref bean="money06"/>
+  	</property>
+  </bean>
+  
+  <!-- Money -->
+
+  <bean id="money01" class="acme.framework.datatypes.Money" >
+  	<property name="amount" value="200"/>
+  	<property name="currency" value="€"/>
+  </bean>
+    
+  <bean id="money02" class="acme.framework.datatypes.Money" >
+  	<property name="amount" value="500"/>
+  	<property name="currency" value="€"/>
+  </bean>  
+      
+  <bean id="money03" class="acme.framework.datatypes.Money" >
+  	<property name="amount" value="100"/>
+  	<property name="currency" value="€"/>
+  </bean>
+
+  <bean id="money04" class="acme.framework.datatypes.Money" >
+  	<property name="amount" value="250"/>
+  	<property name="currency" value="€"/>
+  </bean>
+    
+  <bean id="money05" class="acme.framework.datatypes.Money" >
+  	<property name="amount" value="700"/>
+  	<property name="currency" value="€"/>
+  </bean>
+    
+  <bean id="money06" class="acme.framework.datatypes.Money" >
+  	<property name="amount" value="1000"/>
+  	<property name="currency" value="€"/>
+  </bean>  
 
 </beans>
