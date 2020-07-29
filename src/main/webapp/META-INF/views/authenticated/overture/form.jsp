@@ -11,7 +11,7 @@
 	<acme:form-textarea code="authenticated.overture.form.label.description" path="description"/>
 	<acme:form-money code="authenticated.overture.form.label.minMoney" path="minMoney"/>
 	<acme:form-money code="authenticated.overture.form.label.maxMoney" path="maxMoney"/>
-	<acme:form-url code="authenticated.overture.form.label.links" path="links"/>
+	<acme:form-textbox code="authenticated.overture.form.label.contactEmail" path="contactEmail"/>
 	
 	<acme:form-return code="authenticated.overture.form.button.return" />
 		

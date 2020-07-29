@@ -58,7 +58,7 @@ public class AuthenticatedInquiryListService implements AbstractListService<Auth
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "title", "creationDate", "deadline", "description", "minMoney", "maxMoney", "links");
+		request.unbind(entity, model, "title", "deadline");
 
 	}
 

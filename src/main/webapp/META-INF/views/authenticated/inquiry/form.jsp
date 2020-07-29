@@ -11,7 +11,7 @@
 	<acme:form-textarea code="authenticated.inquiry.form.label.description" path="description"/>
 	<acme:form-money code="authenticated.inquiry.form.label.minMoney" path="minMoney"/>
 	<acme:form-money code="authenticated.inquiry.form.label.maxMoney" path="maxMoney"/>
-	<acme:form-url code="authenticated.inquiry.form.label.links" path="links"/>
+	<acme:form-textbox code="authenticated.inquiry.form.label.contactEmail" path="contactEmail"/>
 	
 	<acme:form-return code="authenticated.inquiry.form.button.return" />
 		

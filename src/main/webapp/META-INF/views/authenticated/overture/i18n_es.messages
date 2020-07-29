@@ -17,6 +17,6 @@ authenticated.overture.form.label.deadline = Fecha límite:
 authenticated.overture.form.label.description = Descripción:
 authenticated.overture.form.label.minMoney = Dinero mínimo:
 authenticated.overture.form.label.maxMoney = Dinero máximo:
-authenticated.overture.form.label.links = Enlaces:
+authenticated.overture.form.label.contactEmail = Email de contacto:
 
 authenticated.overture.form.button.return = Volver

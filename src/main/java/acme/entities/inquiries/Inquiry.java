@@ -6,6 +6,7 @@ import java.util.Date;
 import javax.persistence.Entity;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Past;
 
@@ -42,5 +43,7 @@ public class Inquiry extends DomainEntity {
 
 	private Money				maxMoney;
 
-	private String				links;
+	@Email
+	@NotBlank
+	private String				contactEmail;
 }
