@@ -9,14 +9,14 @@
 # they accept any liabilities with respect to them.
 
 authenticated.inquiry.list.label.title = Title
-authenticated.inquiry.list.label.deadline = Dead Line
+authenticated.inquiry.list.label.deadline = Deadline
 
 authenticated.inquiry.form.label.title = Title:
 authenticated.inquiry.form.label.creationDate = Creation date:
-authenticated.inquiry.form.label.deadline = Dead line:
+authenticated.inquiry.form.label.deadline = Deadline:
 authenticated.inquiry.form.label.description = Description:
 authenticated.inquiry.form.label.minMoney = Minimun money:
 authenticated.inquiry.form.label.maxMoney = Maximun money:
-authenticated.inquiry.form.label.links = Links:
+authenticated.inquiry.form.label.contactEmail = Contact email:
 
 authenticated.inquiry.form.button.return = Return

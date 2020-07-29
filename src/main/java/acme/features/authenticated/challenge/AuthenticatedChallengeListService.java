@@ -10,42 +10,42 @@
  * they accept any liabilities with respect to them.
  */
 
-package acme.features.authenticated.inquiry;
+package acme.features.authenticated.challenge;
 
 import java.util.Collection;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.inquiries.Inquiry;
+import acme.entities.challenges.Challenge;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
 import acme.framework.entities.Authenticated;
 import acme.framework.services.AbstractListService;
 
 @Service
-public class AuthenticatedInquiryListService implements AbstractListService<Authenticated, Inquiry> {
+public class AuthenticatedChallengeListService implements AbstractListService<Authenticated, Challenge> {
 
 	// Internal state ---------------------------------------------------------
 
 	@Autowired
-	AuthenticatedInquiryRepository repository;
+	AuthenticatedChallengeRepository repository;
 
 
 	// AbstractListService<Authenticated, Inquiry> interface --------------
 
 	@Override
-	public boolean authorise(final Request<Inquiry> request) {
+	public boolean authorise(final Request<Challenge> request) {
 		assert request != null;
 
 		return true;
 	}
 
 	@Override
-	public Collection<Inquiry> findMany(final Request<Inquiry> request) {
+	public Collection<Challenge> findMany(final Request<Challenge> request) {
 		assert request != null;
 
-		Collection<Inquiry> result;
+		Collection<Challenge> result;
 
 		result = this.repository.findMany();
 
@@ -53,12 +53,12 @@ public class AuthenticatedInquiryListService implements AbstractListService<Auth
 	}
 
 	@Override
-	public void unbind(final Request<Inquiry> request, final Inquiry entity, final Model model) {
+	public void unbind(final Request<Challenge> request, final Challenge entity, final Model model) {
 		assert request != null;
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "title", "deadline");
+		request.unbind(entity, model, "title", "deadline", "description");
 
 	}
 

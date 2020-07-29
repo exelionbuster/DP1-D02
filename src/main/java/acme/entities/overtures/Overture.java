@@ -1,5 +1,5 @@
 
-package acme.entities.inquiries;
+package acme.entities.overtures;
 
 import java.util.Date;
 
@@ -18,7 +18,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class Inquiry extends DomainEntity {
+public class Overture extends DomainEntity {
 
 	//	Serialisation identifier ---------------------
 

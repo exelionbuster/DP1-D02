@@ -46,6 +46,9 @@ master.menu.anonymous.bulletin.toledo.list	 	= Toledo's bulletins
 
 master.menu.authenticated = Authenticated
 master.menu.authenticated.inquiry = Inquiries list
+master.menu.authenticated.overture = Overtures list
+master.menu.authenticated.challenge = Challenges list
+
 
 # master.menu.administrator ###################################################
 
