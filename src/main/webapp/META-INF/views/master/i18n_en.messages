@@ -41,7 +41,7 @@ master.menu.anonymous.bulletin.fernandez.create = Create a bulletin for Fernánd
 master.menu.anonymous.bulletin.fernandez.list 	= Fernández's bulletins
 master.menu.anonymous.bulletin.toledo.create 	= Create a bulletin for Toledo
 master.menu.anonymous.bulletin.toledo.list	 	= Toledo's bulletins
-master.menu.anonymous.technology-record.list    = Technology Records List
+master.menu.anonymous.technology-record.list    = Technology Records list
 
 # master.menu.authenticated ###################################################
 
@@ -49,6 +49,7 @@ master.menu.authenticated = Authenticated
 master.menu.authenticated.inquiry = Inquiries list
 master.menu.authenticated.overture = Overtures list
 master.menu.authenticated.challenge = Challenges list
+master.menu.authenticated.tool-record = Tool Records list
 
 
 # master.menu.administrator ###################################################

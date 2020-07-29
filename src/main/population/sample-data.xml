@@ -162,6 +162,64 @@
 		<property name="openSource" value="false" />
 		<property name="stars" value="-5.0" />
 	</bean>
+	
+	  <!-- ToolRecords -->
+  
+  <bean id="toolRecord1" class="acme.entities.toolRecords.ToolRecord">
+		<property name="title" value="Example Title 1" />
+		<property name="activitySector" value="Example Sector 1" />
+		<property name="inventor" value="Dr. Pepper" />
+		<property name="description" value="Example Description 1" />
+		<property name="webSite" value="http://example1.com" />
+		<property name="email" value="mail1@example.com" />
+		<property name="openSource" value="false" />
+		<property name="stars" value="1.0" />
+	</bean>
+	
+	<bean id="toolRecord2" class="acme.entities.toolRecords.ToolRecord">
+		<property name="title" value="Example Title 2" />
+		<property name="activitySector" value="Example Sector 2" />
+		<property name="inventor" value="Marcus Fenix" />
+		<property name="description" value="Example Description 2" />
+		<property name="webSite" value="http://example2.com" />
+		<property name="email" value="mail2@example.com" />
+		<property name="openSource" value="true" />
+		<property name="stars" value="-2.0" />
+	</bean>
+	
+	<bean id="toolRecord3" class="acme.entities.toolRecords.ToolRecord">
+		<property name="title" value="Example Title 3" />
+		<property name="activitySector" value="Example Sector 3" />
+		<property name="inventor" value="Megaman" />
+		<property name="description" value="Example Description 3" />
+		<property name="webSite" value="http://example3.com" />
+		<property name="email" value="mail3@example.com" />
+		<property name="openSource" value="false" />
+		<property name="stars" value="0.0" />
+	</bean>
+	
+	<bean id="toolRecord4" class="acme.entities.toolRecords.ToolRecord">
+		<property name="title" value="Example Title 4" />
+		<property name="activitySector" value="Example Sector 4" />
+		<property name="inventor" value="Marty McFly" />
+		<property name="description" value="Example Description 4" />
+		<property name="webSite" value="http://example4.com" />
+		<property name="email" value="mail4@example.com" />
+		<property name="openSource" value="true" />
+		<property name="stars" value="-4.0" />
+	</bean>
+	
+	<bean id="toolRecord5" class="acme.entities.toolRecords.ToolRecord">
+		<property name="title" value="Example Title 5" />
+		<property name="activitySector" value="Example Sector 5" />
+		<property name="inventor" value="Al Paccino" />
+		<property name="description" value="Example Description 5" />
+		<property name="webSite" value="http://example5.com" />
+		<property name="email" value="mail5@example.com" />
+		<property name="openSource" value="false" />
+		<property name="stars" value="5.0" />
+	</bean>
+	
 
     <!-- Inquiries -->
 

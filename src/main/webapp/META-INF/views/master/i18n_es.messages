@@ -49,6 +49,7 @@ master.menu.authenticated = Autenticado
 master.menu.authenticated.inquiry = Lista de consultas
 master.menu.authenticated.overture = Lista de propuestas
 master.menu.authenticated.challenge = Lista de desafíos
+master.menu.authenticated.tool-record = Lista de Registos de Herramientas
 
 # master.menu.administrator ###################################################
 
