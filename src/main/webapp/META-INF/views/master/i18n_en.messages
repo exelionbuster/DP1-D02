@@ -57,6 +57,7 @@ master.menu.authenticated.challenge = Challenges list
 master.menu.administrator = Administrator
 master.menu.administrator.user-accounts = User accounts
 master.menu.administrator.shutdown = Shut down
+master.menu.administrator.notice.list = All notices
 
 # master.menu.provider ########################################################
 
