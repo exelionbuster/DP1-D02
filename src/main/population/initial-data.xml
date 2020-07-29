@@ -47,8 +47,8 @@
 	<!-- Administrators -->
 	
 	<bean name="administratorUserAccount" class="acme.framework.entities.UserAccount">
-		<property name="username" value="administrator" />
-		<property name="password" value="administrator" />
+		<property name="username" value="admin" />
+		<property name="password" value="admin" />
 		<property name="enabled" value="true" />
 		<property name="identity">
 			<bean class="acme.datatypes.UserIdentity">
@@ -72,5 +72,6 @@
 	<bean name="administratorAuthenticated" class="acme.framework.entities.Authenticated">
 		<property name="userAccount" ref="administratorUserAccount" />
 	</bean>
+	
 	
 </beans>
