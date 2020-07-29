@@ -9,14 +9,14 @@
 # they accept any liabilities with respect to them.
 
 authenticated.overture.list.label.title = Title
-authenticated.overture.list.label.deadline = Dead Line
+authenticated.overture.list.label.deadline = Deadline
 
 authenticated.overture.form.label.title = Title:
 authenticated.overture.form.label.creationDate = Creation date:
-authenticated.overture.form.label.deadline = Dead line:
+authenticated.overture.form.label.deadline = Deadline:
 authenticated.overture.form.label.description = Description:
 authenticated.overture.form.label.minMoney = Minimun money:
 authenticated.overture.form.label.maxMoney = Maximun money:
-authenticated.overture.form.label.links = Links:
+authenticated.overture.form.label.contactEmail = Contact email:
 
 authenticated.overture.form.button.return = Return

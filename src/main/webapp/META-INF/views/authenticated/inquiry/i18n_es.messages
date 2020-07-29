@@ -17,6 +17,6 @@ authenticated.inquiry.form.label.deadline = Fecha límite:
 authenticated.inquiry.form.label.description = Descripción:
 authenticated.inquiry.form.label.minMoney = Dinero mínimo:
 authenticated.inquiry.form.label.maxMoney = Dinero máximo:
-authenticated.inquiry.form.label.links = Enlaces:
+authenticated.inquiry.form.label.contactEmail = Email de contacto:
 
 authenticated.inquiry.form.button.return = Volver

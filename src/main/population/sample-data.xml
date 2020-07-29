@@ -119,7 +119,7 @@
     <property name="maxMoney">
     	<ref bean="money02"/>
     </property>
-    <property name="links" value=""/>
+    <property name="contactEmail" value="contactEmail@gmail.com"/>
   </bean>
  
   <bean id="inquiry02" class="acme.entities.inquiries.Inquiry" >
@@ -133,7 +133,7 @@
     <property name="maxMoney">
     	<ref bean="money04"/>
     </property>
-    <property name="links" value=""/>
+    <property name="contactEmail" value="contactEmail@gmail.com"/>
   </bean>
 
   <bean id="inquiry03" class="acme.entities.inquiries.Inquiry" >
@@ -147,7 +147,7 @@
     <property name="maxMoney">
     	<ref bean="money05"/>
     </property>
-    <property name="links" value=""/>
+    <property name="contactEmail" value="contactEmail@gmail.com"/>
   </bean>
   
     <!-- Overtures -->
@@ -163,7 +163,7 @@
     <property name="maxMoney">
     	<ref bean="money02"/>
     </property>
-    <property name="links" value="https://www.google.com/; https://www.youtube.com/"/>
+    <property name="contactEmail" value="contactEmail@gmail.com"/>
   </bean> 
  
   <bean id="overture02" class="acme.entities.overtures.Overture" >
@@ -177,7 +177,7 @@
     <property name="maxMoney">
     	<ref bean="money04"/>
     </property>
-    <property name="links" value="https://www.google.com/"/>
+    <property name="contactEmail" value="contactEmail@gmail.com"/>
   </bean>
 
   <bean id="overture03" class="acme.entities.overtures.Overture" >
@@ -191,7 +191,7 @@
     <property name="maxMoney">
     	<ref bean="money05"/>
     </property>
-    <property name="links" value=""/>
+    <property name="contactEmail" value="contactEmail@gmail.com"/>
   </bean>
   
   
