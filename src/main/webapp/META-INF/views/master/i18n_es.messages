@@ -41,7 +41,7 @@ master.menu.anonymous.bulletin.fernandez.create = Crear un boletín para Fernán
 master.menu.anonymous.bulletin.fernandez.list 	= Boletines de Fernández
 master.menu.anonymous.bulletin.toledo.create 	= Crear un boletín para Toledo
 master.menu.anonymous.bulletin.toledo.list	 	= Boletines de Toledo
-master.menu.anonymous.notice.list				= Noticias activas
+master.menu.anonymous.notice.list				= Noticias vigentes
 master.menu.anonymous.technology-record.list    = Lista de Registros de Technología
 
 # master.menu.authenticated ###################################################
@@ -56,6 +56,7 @@ master.menu.authenticated.challenge = Lista de desafíos
 master.menu.administrator = Administrador
 master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.shutdown = Parar el sistema
+master.menu.administrator.notice.list = Todas las noticias
 
 # master.menu.provider ########################################################
 
