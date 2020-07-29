@@ -105,5 +105,63 @@
     <property name="text" value="La vida es como un juego de cartas, unas veces se gana y otras se pierde."/>
     <property name="luckyNumber" value="27"/>
   </bean>
+  
+  <!-- TechnologyRecords -->
+  
+  <bean id="technologyRecord1" class="acme.entities.technologyRecords.TechnologyRecord">
+		<property name="title" value="Example Title 1" />
+		<property name="activitySector" value="Example Sector 1" />
+		<property name="inventor" value="Dr. Robotnik" />
+		<property name="description" value="Example Description 1" />
+		<property name="webSite" value="http://example1.com" />
+		<property name="email" value="mail1@example.com" />
+		<property name="openSource" value="false" />
+		<property name="stars" value="3.0" />
+	</bean>
+	
+	<bean id="technologyRecord2" class="acme.entities.technologyRecords.TechnologyRecord">
+		<property name="title" value="Example Title 2" />
+		<property name="activitySector" value="Example Sector 2" />
+		<property name="inventor" value="Beakman" />
+		<property name="description" value="Example Description 2" />
+		<property name="webSite" value="http://example2.com" />
+		<property name="email" value="mail2@example.com" />
+		<property name="openSource" value="true" />
+		<property name="stars" value="1.0" />
+	</bean>
+	
+	<bean id="technologyRecord3" class="acme.entities.technologyRecords.TechnologyRecord">
+		<property name="title" value="Example Title 3" />
+		<property name="activitySector" value="Example Sector 3" />
+		<property name="inventor" value="Dr. Willy" />
+		<property name="description" value="Example Description 3" />
+		<property name="webSite" value="http://example3.com" />
+		<property name="email" value="mail3@example.com" />
+		<property name="openSource" value="false" />
+		<property name="stars" value="-3.0" />
+	</bean>
+	
+	<bean id="technologyRecord4" class="acme.entities.technologyRecords.TechnologyRecord">
+		<property name="title" value="Example Title 4" />
+		<property name="activitySector" value="Example Sector 4" />
+		<property name="inventor" value="Dr. Emmett Brown (Doc)" />
+		<property name="description" value="Example Description 4" />
+		<property name="webSite" value="http://example4.com" />
+		<property name="email" value="mail4@example.com" />
+		<property name="openSource" value="true" />
+		<property name="stars" value="5.0" />
+	</bean>
+	
+	<bean id="technologyRecord5" class="acme.entities.technologyRecords.TechnologyRecord">
+		<property name="title" value="Example Title 5" />
+		<property name="activitySector" value="Example Sector 5" />
+		<property name="inventor" value="Morty Sánchez" />
+		<property name="description" value="Example Description 5" />
+		<property name="webSite" value="http://example5.com" />
+		<property name="email" value="mail5@example.com" />
+		<property name="openSource" value="false" />
+		<property name="stars" value="-5.0" />
+	</bean>
+  
 
 </beans>

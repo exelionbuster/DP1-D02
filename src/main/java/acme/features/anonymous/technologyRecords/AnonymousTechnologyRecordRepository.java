@@ -12,9 +12,9 @@ import acme.framework.repositories.AbstractRepository;
 @Repository
 public interface AnonymousTechnologyRecordRepository extends AbstractRepository {
 
-	@Query("select cr from CompanyRecord cr")
+	@Query("select cr from TechnologyRecord cr")
 	Collection<TechnologyRecord> findMany();
 
-	@Query("select cr from CompanyRecord cr where cr.id = ?1")
+	@Query("select cr from TechnologyRecord cr where cr.id = ?1")
 	TechnologyRecord findOneById(int id);
 }
