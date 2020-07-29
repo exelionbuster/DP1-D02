@@ -262,11 +262,11 @@
   	<property name="rookieReward">
   		<ref bean="money03"/>
   	</property>
-  	<property name="averageGoal" value="This is a average goal!"/>
+  	<property name="averageGoal" value="This is an average goal!"/>
   	<property name="averageReward">
   		<ref bean="money04"/>
   	</property>
-  	<property name="expertGoal" value="This is a expert goal!"/>
+  	<property name="expertGoal" value="This is an expert goal!"/>
   	<property name="expertReward">
   		<ref bean="money02"/>
   	</property>
@@ -280,11 +280,11 @@
   	<property name="rookieReward">
   		<ref bean="money04"/>
   	</property>
-  	<property name="averageGoal" value="This is a average goal!"/>
+  	<property name="averageGoal" value="This is an average goal!"/>
   	<property name="averageReward">
   		<ref bean="money03"/>
   	</property>
-  	<property name="expertGoal" value="This is a expert goal!"/>
+  	<property name="expertGoal" value="This is an expert goal!"/>
   	<property name="expertReward">
   		<ref bean="money05"/>
   	</property>
@@ -298,15 +298,55 @@
   	<property name="rookieReward">
   		<ref bean="money02"/>
   	</property>
-  	<property name="averageGoal" value="This is a average goal!"/>
+  	<property name="averageGoal" value="This is an average goal!"/>
   	<property name="averageReward">
   		<ref bean="money05"/>
   	</property>
-  	<property name="expertGoal" value="This is a expert goal!"/>
+  	<property name="expertGoal" value="This is an expert goal!"/>
   	<property name="expertReward">
   		<ref bean="money06"/>
   	</property>
   </bean>
+  
+  <!-- Notices -->
+  
+  <bean id="notice01" class="acme.entities.notices.Notice" >
+  	<property name="header" value="https://upload.wikimedia.org/wikipedia/commons/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg"/>
+    <property name="title" value="Notice 1"/>
+    <property name="creationDate" value="2020/07/28 00:30"/>
+    <property name="deadline" value="2021/07/28 00:00"/>
+    <property name="body" value="This is a body!"/>
+   	<property name="links" value="https://anilist.co/ ; https://es.wikipedia.org/"/>
+  </bean>
+  
+  <bean id="notice02" class="acme.entities.notices.Notice" >
+  	<property name="header" value="https://upload.wikimedia.org/wikipedia/commons/d/d1/Artist%E2%80%99s_impression_of_the_quasar_3C_279.jpg"/>
+    <property name="title" value="Notice 2"/>
+    <property name="creationDate" value="2020/06/28 00:30"/>
+    <property name="deadline" value="2020/07/28 00:00"/>
+    <property name="body" value="This is a body 2!"/>
+   	<property name="links"><null/></property>
+  </bean>
+  
+  <bean id="notice03" class="acme.entities.notices.Notice" >
+  	<property name="header" value="https://upload.wikimedia.org/wikipedia/commons/f/f0/Vega_-_star_in_Lyra.png"/>
+    <property name="title" value="Notice 3"/>
+    <property name="creationDate" value="2020/06/28 00:30"/>
+    <property name="deadline" value="2021/07/28 00:00"/>
+    <property name="body" value="This is a body 3!"/>
+   	<property name="links" value="https://anilist.co/"/>
+  </bean>
+  
+  <bean id="notice04" class="acme.entities.notices.Notice" >
+  	<property name="header" value="https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA04204_hires.jpg"/>
+    <property name="title" value="Notice 4"/>
+    <property name="creationDate" value="2020/06/28 00:30"/>
+    <property name="deadline" value="2021/07/28 00:00"/>
+    <property name="body" value="This is a body 3!"/>
+   	<property name="links" value="https://es.wikipedia.org/"/>
+  </bean>
+  
+  
   
   <!-- Money -->
 

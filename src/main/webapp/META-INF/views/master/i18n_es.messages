@@ -41,6 +41,7 @@ master.menu.anonymous.bulletin.fernandez.create = Crear un boletín para Fernán
 master.menu.anonymous.bulletin.fernandez.list 	= Boletines de Fernández
 master.menu.anonymous.bulletin.toledo.create 	= Crear un boletín para Toledo
 master.menu.anonymous.bulletin.toledo.list	 	= Boletines de Toledo
+master.menu.anonymous.notice.list				= Noticias activas
 master.menu.anonymous.technology-record.list    = Lista de Registros de Technología
 
 # master.menu.authenticated ###################################################

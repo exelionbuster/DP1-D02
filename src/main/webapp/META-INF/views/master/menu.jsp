@@ -37,6 +37,8 @@
 	      	<acme:menu-separator/>
 	      	<acme:menu-suboption code="master.menu.anonymous.bulletin.toledo.create" action="/anonymous/toledo-bulletin/create"/>
       		<acme:menu-suboption code="master.menu.anonymous.bulletin.toledo.list" action="/anonymous/toledo-bulletin/list"/>
+      		<acme:menu-separator/>
+      		<acme:menu-suboption code="master.menu.anonymous.notice.list" action="/anonymous/notice/list"/>
       		
 		</acme:menu-option>
 		
