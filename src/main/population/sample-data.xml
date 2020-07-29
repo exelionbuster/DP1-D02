@@ -195,6 +195,61 @@
   </bean>
   
   
+  <!-- Challenges -->
+  
+  <bean id="challenge01" class="acme.entities.challenges.Challenge">
+  	<property name="title" value="Challenge 1"/>
+  	<property name="deadline" value="2020/10/04 23:59"/>
+  	<property name="description" value="The first to finish wins!"/>
+  	<property name="rookieGoal" value="This is a rookie goal!"/>
+  	<property name="rookieReward">
+  		<ref bean="money03"/>
+  	</property>
+  	<property name="averageGoal" value="This is a average goal!"/>
+  	<property name="averageReward">
+  		<ref bean="money04"/>
+  	</property>
+  	<property name="expertGoal" value="This is a expert goal!"/>
+  	<property name="expertReward">
+  		<ref bean="money02"/>
+  	</property>
+  </bean>
+  
+  <bean id="challenge02" class="acme.entities.challenges.Challenge">
+  	<property name="title" value="Challenge 2"/>
+  	<property name="deadline" value="2020/01/09 23:59"/>
+  	<property name="description" value="Jump high and win!"/>
+  	<property name="rookieGoal" value="This is a rookie goal!"/>
+  	<property name="rookieReward">
+  		<ref bean="money04"/>
+  	</property>
+  	<property name="averageGoal" value="This is a average goal!"/>
+  	<property name="averageReward">
+  		<ref bean="money03"/>
+  	</property>
+  	<property name="expertGoal" value="This is a expert goal!"/>
+  	<property name="expertReward">
+  		<ref bean="money05"/>
+  	</property>
+  </bean>
+  
+  <bean id="challenge03" class="acme.entities.challenges.Challenge">
+  	<property name="title" value="Challenge 1"/>
+  	<property name="deadline" value="2021/11/24 21:47"/>
+  	<property name="description" value="The fastest will win!"/>
+  	<property name="rookieGoal" value="This is a rookie goal!"/>
+  	<property name="rookieReward">
+  		<ref bean="money02"/>
+  	</property>
+  	<property name="averageGoal" value="This is a average goal!"/>
+  	<property name="averageReward">
+  		<ref bean="money05"/>
+  	</property>
+  	<property name="expertGoal" value="This is a expert goal!"/>
+  	<property name="expertReward">
+  		<ref bean="money06"/>
+  	</property>
+  </bean>
   
   <!-- Money -->
 
@@ -222,6 +277,10 @@
   	<property name="amount" value="700"/>
   	<property name="currency" value="€"/>
   </bean>
-  
+    
+  <bean id="money06" class="acme.framework.datatypes.Money" >
+  	<property name="amount" value="1000"/>
+  	<property name="currency" value="€"/>
+  </bean>  
 
 </beans>
