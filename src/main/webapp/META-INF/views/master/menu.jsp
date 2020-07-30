@@ -56,6 +56,8 @@
 			<acme:menu-suboption code="master.menu.administrator.shutdown" action="/master/shutdown"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.notice.list" action="/administrator/notice/list"/>
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.administrator.configuration" action="/administrator/configuration/show"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.provider" access="hasRole('Provider')">
