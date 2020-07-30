@@ -1,5 +1,5 @@
 
-package acme.features.anonymous.notices;
+package acme.features.authenticated.notices;
 
 import java.util.Collection;
 
@@ -9,14 +9,14 @@ import org.springframework.stereotype.Service;
 import acme.entities.notices.Notice;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
-import acme.framework.entities.Anonymous;
+import acme.framework.entities.Authenticated;
 import acme.framework.services.AbstractListService;
 
 @Service
-public class AnonymousNoticeListService implements AbstractListService<Anonymous, Notice> {
+public class AuthenticatedNoticeListService implements AbstractListService<Authenticated, Notice> {
 
 	@Autowired
-	AnonymousNoticeRepository repository;
+	AuthenticatedNoticeRepository repository;
 
 
 	@Override
@@ -38,7 +38,7 @@ public class AnonymousNoticeListService implements AbstractListService<Anonymous
 	public Collection<Notice> findMany(final Request<Notice> request) {
 		assert request != null;
 		Collection<Notice> res;
-		res = this.repository.findActiveNotices();
+		res = this.repository.findMany();
 		return res;
 	}
 

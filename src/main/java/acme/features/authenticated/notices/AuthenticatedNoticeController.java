@@ -1,5 +1,5 @@
 
-package acme.features.anonymous.notices;
+package acme.features.authenticated.notices;
 
 import javax.annotation.PostConstruct;
 
@@ -11,17 +11,17 @@ import acme.components.CustomCommand;
 import acme.entities.notices.Notice;
 import acme.framework.components.BasicCommand;
 import acme.framework.controllers.AbstractController;
-import acme.framework.entities.Anonymous;
+import acme.framework.entities.Authenticated;
 
 @Controller
-@RequestMapping("/anonymous/notice/")
-public class AnonymousNoticeController extends AbstractController<Anonymous, Notice> {
+@RequestMapping("/authenticated/notice/")
+public class AuthenticatedNoticeController extends AbstractController<Authenticated, Notice> {
 
 	@Autowired
-	private AnonymousNoticeListService	listService;
+	private AuthenticatedNoticeListService	listService;
 
 	@Autowired
-	private AnonymousNoticeShowService	showService;
+	private AuthenticatedNoticeShowService	showService;
 
 
 	@PostConstruct
