@@ -20,6 +20,7 @@
 	<acme:menu-left>
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
       		<acme:menu-suboption code="master.menu.anonymous.technology-record.list" action="/anonymous/technology-record/list"/>
+      		<acme:menu-suboption code="master.menu.anonymous.tool-record.list" action="/anonymous/tool-record/list"/>
       		<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link.adri" action="https://github.com/adrferfer"/>
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link.alberto" action="https://github.com/Albert0led0"/>
