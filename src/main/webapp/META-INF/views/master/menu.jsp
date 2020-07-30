@@ -38,6 +38,8 @@
 	      	<acme:menu-separator/>
 	      	<acme:menu-suboption code="master.menu.anonymous.bulletin.toledo.create" action="/anonymous/toledo-bulletin/create"/>
       		<acme:menu-suboption code="master.menu.anonymous.bulletin.toledo.list" action="/anonymous/toledo-bulletin/list"/>
+      		<acme:menu-separator/>
+      		<acme:menu-suboption code="master.menu.anonymous.notice.list" action="/anonymous/notice/list"/>
       		
 		</acme:menu-option>
 		
@@ -52,6 +54,8 @@
 			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.shutdown" action="/master/shutdown"/>
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.administrator.notice.list" action="/administrator/notice/list"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.provider" access="hasRole('Provider')">
