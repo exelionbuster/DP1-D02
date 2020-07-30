@@ -404,7 +404,67 @@
    	<property name="links" value="https://es.wikipedia.org/"/>
   </bean>
   
+  <!-- CreditCards -->
   
+  <bean id="creditCard01" class="acme.entities.creditCards.CreditCard" >
+  	<property name="holderName" value="Alguien Uno" />
+  	<property name="number" value="5500000000000004" />
+  	<property name="brand" value="Visa" />
+  	<property name="expirationDate" value="2025/06/28 00:00" />
+  	<property name="cvv" value="000" />
+  </bean>
+  
+  <bean id="creditCard02" class="acme.entities.creditCards.CreditCard" >
+  	<property name="holderName" value="Alguien Dos" />
+  	<property name="number" value="6011000000000004" />
+  	<property name="brand" value="Master Card" />
+  	<property name="expirationDate" value="2024/06/12 00:00" />
+  	<property name="cvv" value="123" />
+  </bean>
+  
+  <bean id="creditCard03" class="acme.entities.creditCards.CreditCard" >
+  	<property name="holderName" value="Alguien Tres" />
+  	<property name="number" value="3088000000000009" />
+  	<property name="brand" value="Visa" />
+  	<property name="expirationDate" value="2022/05/10 00:00" />
+  	<property name="cvv" value="999" />
+  </bean>
+  
+  <!-- Banners -->
+  
+  <bean id="banner01" class="acme.entities.banners.Banner" >
+  	<property name="picture" value="https://upload.wikimedia.org/wikipedia/commons/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg" />
+  	<property name="slogan" value="Esto es un slogan" />
+  	<property name="target" value="https://es.wikipedia.org/" />
+  	<property name="creditCard">
+  		<ref bean="creditCard01"/>
+  	</property>
+  </bean>
+  
+  <bean id="banner02" class="acme.entities.banners.Banner" >
+  	<property name="picture" value="https://upload.wikimedia.org/wikipedia/commons/d/d1/Artist%E2%80%99s_impression_of_the_quasar_3C_279.jpg" />
+  	<property name="slogan" value="Esto es un slogan" />
+  	<property name="target" value="https://es.wikipedia.org/" />
+  	<property name="creditCard">
+  		<ref bean="creditCard01"/>
+  	</property>
+  </bean>
+  
+  <bean id="banner03" class="acme.entities.banners.Banner" >
+  	<property name="picture" value="https://upload.wikimedia.org/wikipedia/commons/f/f0/Vega_-_star_in_Lyra.png" />
+  	<property name="slogan" value="Esto es un slogan" />
+  	<property name="target" value="https://es.wikipedia.org/" />
+  	<property name="creditCard"><null/></property>
+  </bean>
+  
+  <bean id="banner04" class="acme.entities.banners.Banner" >
+  	<property name="picture" value="https://upload.wikimedia.org/wikipedia/commons/f/f0/Vega_-_star_in_Lyra.png" />
+  	<property name="slogan" value="Esto es un slogan" />
+  	<property name="target" value="https://es.wikipedia.org/" />
+  	<property name="creditCard">
+  		<ref bean="creditCard02"/>
+  	</property>
+  </bean>
   
   <!-- Money -->
 
