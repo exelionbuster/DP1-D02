@@ -55,11 +55,12 @@ master.menu.authenticated.tool-record = Lista de Registos de Herramientas
 
 # master.menu.administrator ###################################################
 
-master.menu.administrator = Administrador
+master.menu.administrator 				= Administrador
+master.menu.administrator.notice.list 	= Todas las noticias
+master.menu.administrator.dashboard		= Panel de estadísticas
 master.menu.administrator.user-accounts = Cuentas de usuario
-master.menu.administrator.shutdown = Parar el sistema
-master.menu.administrator.notice.list = Todas las noticias
 master.menu.administrator.configuration = Configuración
+master.menu.administrator.shutdown 		= Parar el sistema
 
 # master.menu.provider ########################################################
 
