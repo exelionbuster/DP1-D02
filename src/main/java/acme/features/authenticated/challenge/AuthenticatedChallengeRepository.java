@@ -24,7 +24,7 @@ import acme.framework.repositories.AbstractRepository;
 public interface AuthenticatedChallengeRepository extends AbstractRepository {
 
 	@Query("select c from Challenge c where c.deadline > current_timestamp")
-	Collection<Challenge> findMany();
+	Collection<Challenge> findActiveChallenges();
 
 	@Query("select a from Challenge a where a.id = ?1")
 	Challenge findOneById(int id);

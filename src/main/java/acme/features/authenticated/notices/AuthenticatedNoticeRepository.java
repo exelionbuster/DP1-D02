@@ -1,5 +1,5 @@
 
-package acme.features.anonymous.notices;
+package acme.features.authenticated.notices;
 
 import java.util.Collection;
 
@@ -10,10 +10,10 @@ import acme.entities.notices.Notice;
 import acme.framework.repositories.AbstractRepository;
 
 @Repository
-public interface AnonymousNoticeRepository extends AbstractRepository {
+public interface AuthenticatedNoticeRepository extends AbstractRepository {
 
 	@Query("select n from Notice n where n.deadline > current_timestamp")
-	Collection<Notice> findActiveNotices();
+	Collection<Notice> findMany();
 
 	@Query("select n from Notice n where n.id = ?1")
 	Notice findOneById(int id);

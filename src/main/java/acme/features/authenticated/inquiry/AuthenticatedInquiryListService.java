@@ -47,7 +47,7 @@ public class AuthenticatedInquiryListService implements AbstractListService<Auth
 
 		Collection<Inquiry> result;
 
-		result = this.repository.findMany();
+		result = this.repository.findActiveInquiries();
 
 		return result;
 	}

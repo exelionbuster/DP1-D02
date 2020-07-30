@@ -39,15 +39,18 @@
 	      	<acme:menu-suboption code="master.menu.anonymous.bulletin.toledo.create" action="/anonymous/toledo-bulletin/create"/>
       		<acme:menu-suboption code="master.menu.anonymous.bulletin.toledo.list" action="/anonymous/toledo-bulletin/list"/>
       		<acme:menu-separator/>
-      		<acme:menu-suboption code="master.menu.anonymous.notice.list" action="/anonymous/notice/list"/>
+      		<acme:menu-suboption code="master.menu.anonymous.notice.list-active" action="/anonymous/notice/list-active"/>
       		
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.authenticated" access="isAuthenticated()">
-			<acme:menu-suboption code="master.menu.authenticated.inquiry" action="/authenticated/inquiry/list"/>
-			<acme:menu-suboption code="master.menu.authenticated.overture" action="/authenticated/overture/list"/>	
-			<acme:menu-suboption code="master.menu.authenticated.challenge" action="/authenticated/challenge/list"/>
-			<acme:menu-suboption code="master.menu.authenticated.tool-record" action="/authenticated/tool-record/list"/>									
+			<acme:menu-suboption code="master.menu.authenticated.inquiry" action="/authenticated/inquiry/list-active"/>
+			<acme:menu-suboption code="master.menu.authenticated.overture" action="/authenticated/overture/list-active"/>	
+			<acme:menu-suboption code="master.menu.authenticated.challenge" action="/authenticated/challenge/list-active"/>
+			<acme:menu-suboption code="master.menu.authenticated.tool-record" action="/authenticated/tool-record/list"/>
+			<acme:menu-suboption code="master.menu.authenticated.notice.list-active" action="/authenticated/notice/list-active"/>
+			<acme:menu-suboption code="master.menu.authenticated.technology-record.list" action="/authenticated/technology-record/list"/>
+												
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">

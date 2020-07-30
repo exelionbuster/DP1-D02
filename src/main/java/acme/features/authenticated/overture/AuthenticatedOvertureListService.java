@@ -47,7 +47,7 @@ public class AuthenticatedOvertureListService implements AbstractListService<Aut
 
 		Collection<Overture> result;
 
-		result = this.repository.findMany();
+		result = this.repository.findActiveOvertures();
 
 		return result;
 	}
