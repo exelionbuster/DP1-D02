@@ -9,9 +9,9 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-anonymous.company-record.list.label.title = Título
-anonymous.company-record.list.label.activitySector = Sector de actividad
-anonymous.company-record.list.label.stars = Estrellas
+anonymous.technology-record.list.label.title = Título
+anonymous.technology-record.list.label.activitySector = Sector de actividad
+anonymous.technology-record.list.label.stars = Estrellas
 
 anonymous.technology-record.form.label.title = Título
 anonymous.technology-record.form.label.activitySector = Sector de actividad

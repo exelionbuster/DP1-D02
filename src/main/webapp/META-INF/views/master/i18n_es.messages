@@ -43,6 +43,7 @@ master.menu.anonymous.bulletin.toledo.create 	= Crear un boletín para Toledo
 master.menu.anonymous.bulletin.toledo.list	 	= Boletines de Toledo
 master.menu.anonymous.notice.list				= Noticias vigentes
 master.menu.anonymous.technology-record.list    = Lista de Registros de Technología
+master.menu.anonymous.tool-record.list    = Lista de Registros de Herramientas
 
 # master.menu.authenticated ###################################################
 
@@ -50,6 +51,7 @@ master.menu.authenticated = Autenticado
 master.menu.authenticated.inquiry = Lista de consultas
 master.menu.authenticated.overture = Lista de propuestas
 master.menu.authenticated.challenge = Lista de desafíos
+master.menu.authenticated.tool-record = Lista de Registos de Herramientas
 
 # master.menu.administrator ###################################################
 
