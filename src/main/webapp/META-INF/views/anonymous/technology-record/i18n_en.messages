@@ -9,6 +9,7 @@
 # they accept any liabilities with respect to them.
 
 anonymous.technology-record.list.label.title = Title
+anonymous.technology-record.list.label.licence = Licence
 anonymous.technology-record.list.label.activitySector = Activity Sector
 anonymous.technology-record.list.label.stars = Stars
 
@@ -18,7 +19,7 @@ anonymous.technology-record.form.label.inventor = Inventor
 anonymous.technology-record.form.label.description = Description
 anonymous.technology-record.form.label.webSite = Website
 anonymous.technology-record.form.label.email = email
-anonymous.technology-record.form.label.openSource = Open Source
+anonymous.technology-record.form.label.licence = Licence
 anonymous.technology-record.form.label.stars = Stars
 	
 anonymous.technology-record.button.return = Return
