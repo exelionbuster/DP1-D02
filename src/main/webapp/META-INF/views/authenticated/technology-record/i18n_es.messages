@@ -10,16 +10,17 @@
 # they accept any liabilities with respect to them.
 
 authenticated.technology-record.list.label.title = Título
+authenticated.technology-record.list.label.licence = Licencia
 authenticated.technology-record.list.label.activitySector = Sector de actividad
 authenticated.technology-record.list.label.stars = Estrellas
 
-authenticated.technology-record.form.label.title = Título
-authenticated.technology-record.form.label.activitySector = Sector de actividad
-authenticated.technology-record.form.label.inventor = Creador
-authenticated.technology-record.form.label.description = Descripción
-authenticated.technology-record.form.label.webSite = Pág. Web
-authenticated.technology-record.form.label.email = Correo Electrónico
-authenticated.technology-record.form.label.openSource = Código abierto
-authenticated.technology-record.form.label.stars = Estrellas
+authenticated.technology-record.form.label.title = Título:
+authenticated.technology-record.form.label.activitySector = Sector de actividad:
+authenticated.technology-record.form.label.inventor = Creador:
+authenticated.technology-record.form.label.description = Descripción:
+authenticated.technology-record.form.label.webSite = Pág. Web:
+authenticated.technology-record.form.label.email = Correo Electrónico:
+authenticated.technology-record.form.label.licence = Licencia:
+authenticated.technology-record.form.label.stars = Estrellas:
 	
-authenticated.technology-record.button.return = Atrás
+authenticated.technology-record.button.return = Volver

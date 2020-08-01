@@ -10,16 +10,17 @@
 # they accept any liabilities with respect to them.
 
 anonymous.technology-record.list.label.title = Título
+anonymous.technology-record.list.label.licence = Licencia
 anonymous.technology-record.list.label.activitySector = Sector de actividad
 anonymous.technology-record.list.label.stars = Estrellas
 
-anonymous.technology-record.form.label.title = Título
-anonymous.technology-record.form.label.activitySector = Sector de actividad
-anonymous.technology-record.form.label.inventor = Creador
-anonymous.technology-record.form.label.description = Descripción
-anonymous.technology-record.form.label.webSite = Pág. Web
-anonymous.technology-record.form.label.email = Correo Electrónico
-anonymous.technology-record.form.label.openSource = Código abierto
-anonymous.technology-record.form.label.stars = Estrellas
+anonymous.technology-record.form.label.title = Título:
+anonymous.technology-record.form.label.activitySector = Sector de actividad:
+anonymous.technology-record.form.label.inventor = Creador:
+anonymous.technology-record.form.label.description = Descripción:
+anonymous.technology-record.form.label.webSite = Página. Web:
+anonymous.technology-record.form.label.email = Correo Electrónico:
+anonymous.technology-record.form.label.licence = Licencia:
+anonymous.technology-record.form.label.stars = Estrellas:
 	
-anonymous.technology-record.button.return = Atrás
+anonymous.technology-record.button.return = Volver
