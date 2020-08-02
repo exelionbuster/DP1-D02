@@ -46,7 +46,7 @@ public class Dashboard implements Serializable {
 	List<String>				toolRecordsSectors;
 	List<Long>					toolRecordsBySector;
 
-	List<Integer>				techRecordsSource;
-	List<Integer>				toolRecordsSource;
+	List<Integer>				techRecordsLicence;
+	List<Integer>				toolRecordsLicence;
 
 }
