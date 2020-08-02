@@ -2,6 +2,7 @@
 package acme.entities.toolRecords;
 
 import javax.persistence.Entity;
+import javax.persistence.Transient;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 
@@ -47,5 +48,15 @@ public class ToolRecord extends DomainEntity {
 
 	@Range(min = -5, max = 5)
 	private Double				stars;
+
+
+	@Transient
+	public String getLicence() {
+		String res = "Open-source";
+		if (!this.openSource) {
+			res = "Closed-source";
+		}
+		return res;
+	}
 
 }

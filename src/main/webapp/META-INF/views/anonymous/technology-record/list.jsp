@@ -18,6 +18,7 @@
 <acme:list>
 
 	<acme:list-column code="anonymous.technology-record.list.label.title" path="title" width="20%"/>
+	<acme:list-column code="anonymous.technology-record.list.label.licence" path="licence" width="20%"/>
 	<acme:list-column code="anonymous.technology-record.list.label.activitySector" path="activitySector" width="20%"/>
 	<acme:list-column code="anonymous.technology-record.list.label.stars" path="stars" width="20%"/>	
 	

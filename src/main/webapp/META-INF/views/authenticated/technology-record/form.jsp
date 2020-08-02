@@ -22,7 +22,7 @@
 	<acme:form-textbox code="authenticated.technology-record.form.label.description" path="description" />
 	<acme:form-url code="authenticated.technology-record.form.label.webSite" path="webSite" />
 	<acme:form-textbox code="authenticated.technology-record.form.label.email" path="email"/>
-	<acme:form-textbox code="authenticated.technology-record.form.label.openSource" path="openSource" />
+	<acme:form-textbox code="authenticated.technology-record.form.label.licence" path="licence" />
 	<acme:form-textbox code="authenticated.technology-record.form.label.stars" path="stars"/>
 	
 	<acme:form-return code="authenticated.technology-record.button.return" />

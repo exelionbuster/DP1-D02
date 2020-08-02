@@ -46,7 +46,7 @@ public class AuthenticatedToolRecordListService implements AbstractListService<A
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "title", "activitySector", "inventor", "description", "webSite", "email", "openSource", "stars");
+		request.unbind(entity, model, "title", "activitySector", "licence", "stars");
 
 	}
 }
