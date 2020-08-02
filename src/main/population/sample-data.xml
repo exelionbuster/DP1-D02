@@ -109,10 +109,10 @@
   <!-- TechnologyRecords -->
   
   <bean id="technologyRecord1" class="acme.entities.technologyRecords.TechnologyRecord">
-		<property name="title" value="Example Title 1" />
-		<property name="activitySector" value="Example Sector 1" />
+		<property name="title" value="Technology 1" />
+		<property name="activitySector" value="Science" />
 		<property name="inventor" value="Dr. Robotnik" />
-		<property name="description" value="Example Description 1" />
+		<property name="description" value="Sample description" />
 		<property name="webSite" value="http://example1.com" />
 		<property name="email" value="mail1@example.com" />
 		<property name="openSource" value="false" />
@@ -120,10 +120,10 @@
 	</bean>
 	
 	<bean id="technologyRecord2" class="acme.entities.technologyRecords.TechnologyRecord">
-		<property name="title" value="Example Title 2" />
-		<property name="activitySector" value="Example Sector 2" />
+		<property name="title" value="Technology 2" />
+		<property name="activitySector" value="Technology" />
 		<property name="inventor" value="Beakman" />
-		<property name="description" value="Example Description 2" />
+		<property name="description" value="Sample description" />
 		<property name="webSite" value="http://example2.com" />
 		<property name="email" value="mail2@example.com" />
 		<property name="openSource" value="true" />
@@ -131,10 +131,10 @@
 	</bean>
 	
 	<bean id="technologyRecord3" class="acme.entities.technologyRecords.TechnologyRecord">
-		<property name="title" value="Example Title 3" />
-		<property name="activitySector" value="Example Sector 3" />
+		<property name="title" value="Technology 3" />
+		<property name="activitySector" value="Technology" />
 		<property name="inventor" value="Dr. Willy" />
-		<property name="description" value="Example Description 3" />
+		<property name="description" value="Sample description" />
 		<property name="webSite" value="http://example3.com" />
 		<property name="email" value="mail3@example.com" />
 		<property name="openSource" value="false" />
@@ -142,10 +142,10 @@
 	</bean>
 	
 	<bean id="technologyRecord4" class="acme.entities.technologyRecords.TechnologyRecord">
-		<property name="title" value="Example Title 4" />
-		<property name="activitySector" value="Example Sector 4" />
+		<property name="title" value="Technology 4" />
+		<property name="activitySector" value="Business" />
 		<property name="inventor" value="Dr. Emmett Brown (Doc)" />
-		<property name="description" value="Example Description 4" />
+		<property name="description" value="Sample description" />
 		<property name="webSite" value="http://example4.com" />
 		<property name="email" value="mail4@example.com" />
 		<property name="openSource" value="true" />
@@ -153,11 +153,22 @@
 	</bean>
 	
 	<bean id="technologyRecord5" class="acme.entities.technologyRecords.TechnologyRecord">
-		<property name="title" value="Example Title 5" />
-		<property name="activitySector" value="Example Sector 5" />
+		<property name="title" value="Technology 5" />
+		<property name="activitySector" value="Health" />
 		<property name="inventor" value="Morty Sánchez" />
-		<property name="description" value="Example Description 5" />
+		<property name="description" value="Sample description" />
 		<property name="webSite" value="http://example5.com" />
+		<property name="email" value="mail5@example.com" />
+		<property name="openSource" value="false" />
+		<property name="stars" value="-5.0" />
+	</bean>
+	
+	<bean id="technologyRecord6" class="acme.entities.technologyRecords.TechnologyRecord">
+		<property name="title" value="Technology 6" />
+		<property name="activitySector" value="Science" />
+		<property name="inventor" value="Rintaro Okabe" />
+		<property name="description" value="Sample description" />
+		<property name="webSite" value="http://steinsgate.jp/" />
 		<property name="email" value="mail5@example.com" />
 		<property name="openSource" value="false" />
 		<property name="stars" value="-5.0" />
@@ -166,10 +177,10 @@
 	  <!-- ToolRecords -->
   
   <bean id="toolRecord1" class="acme.entities.toolRecords.ToolRecord">
-		<property name="title" value="Example Title 1" />
-		<property name="activitySector" value="Example Sector 1" />
+		<property name="title" value="Tool 1" />
+		<property name="activitySector" value="Technology" />
 		<property name="inventor" value="Dr. Pepper" />
-		<property name="description" value="Example Description 1" />
+		<property name="description" value="Sample description" />
 		<property name="webSite" value="http://example1.com" />
 		<property name="email" value="mail1@example.com" />
 		<property name="openSource" value="false" />
@@ -177,10 +188,10 @@
 	</bean>
 	
 	<bean id="toolRecord2" class="acme.entities.toolRecords.ToolRecord">
-		<property name="title" value="Example Title 2" />
-		<property name="activitySector" value="Example Sector 2" />
+		<property name="title" value="Tool 2" />
+		<property name="activitySector" value="Science" />
 		<property name="inventor" value="Marcus Fenix" />
-		<property name="description" value="Example Description 2" />
+		<property name="description" value="Sample description" />
 		<property name="webSite" value="http://example2.com" />
 		<property name="email" value="mail2@example.com" />
 		<property name="openSource" value="true" />
@@ -188,10 +199,10 @@
 	</bean>
 	
 	<bean id="toolRecord3" class="acme.entities.toolRecords.ToolRecord">
-		<property name="title" value="Example Title 3" />
-		<property name="activitySector" value="Example Sector 3" />
+		<property name="title" value="Tool 3" />
+		<property name="activitySector" value="Technology" />
 		<property name="inventor" value="Megaman" />
-		<property name="description" value="Example Description 3" />
+		<property name="description" value="Sample description" />
 		<property name="webSite" value="http://example3.com" />
 		<property name="email" value="mail3@example.com" />
 		<property name="openSource" value="false" />
@@ -199,10 +210,10 @@
 	</bean>
 	
 	<bean id="toolRecord4" class="acme.entities.toolRecords.ToolRecord">
-		<property name="title" value="Example Title 4" />
-		<property name="activitySector" value="Example Sector 4" />
+		<property name="title" value="Tool 4" />
+		<property name="activitySector" value="Science" />
 		<property name="inventor" value="Marty McFly" />
-		<property name="description" value="Example Description 4" />
+		<property name="description" value="Sample description" />
 		<property name="webSite" value="http://example4.com" />
 		<property name="email" value="mail4@example.com" />
 		<property name="openSource" value="true" />
@@ -210,11 +221,22 @@
 	</bean>
 	
 	<bean id="toolRecord5" class="acme.entities.toolRecords.ToolRecord">
-		<property name="title" value="Example Title 5" />
-		<property name="activitySector" value="Example Sector 5" />
-		<property name="inventor" value="Al Paccino" />
-		<property name="description" value="Example Description 5" />
+		<property name="title" value="Tool 5" />
+		<property name="activitySector" value="Technology" />
+		<property name="inventor" value="Al Pacino" />
+		<property name="description" value="Sample description" />
 		<property name="webSite" value="http://example5.com" />
+		<property name="email" value="mail5@example.com" />
+		<property name="openSource" value="false" />
+		<property name="stars" value="5.0" />
+	</bean>
+	
+	<bean id="toolRecord6" class="acme.entities.toolRecords.ToolRecord">
+		<property name="title" value="Tool 6" />
+		<property name="activitySector" value="Science" />
+		<property name="inventor" value="Natasha" />
+		<property name="description" value="Sample description" />
+		<property name="webSite" value="https://www.sekaiseifuku-zzz.com/" />
 		<property name="email" value="mail5@example.com" />
 		<property name="openSource" value="false" />
 		<property name="stars" value="5.0" />
@@ -316,15 +338,15 @@
   	<property name="title" value="Challenge 1"/>
   	<property name="deadline" value="2020/10/04 23:59"/>
   	<property name="description" value="The first to finish wins!"/>
-  	<property name="rookieGoal" value="This is a rookie goal!"/>
+  	<property name="rookieGoal" value="Finish the challenge!"/>
   	<property name="rookieReward">
   		<ref bean="money03"/>
   	</property>
-  	<property name="averageGoal" value="This is an average goal!"/>
+  	<property name="averageGoal" value="Achieve a podium finish!"/>
   	<property name="averageReward">
   		<ref bean="money04"/>
   	</property>
-  	<property name="expertGoal" value="This is an expert goal!"/>
+  	<property name="expertGoal" value="Finish in first place!"/>
   	<property name="expertReward">
   		<ref bean="money02"/>
   	</property>
@@ -334,15 +356,15 @@
   	<property name="title" value="Challenge 2"/>
   	<property name="deadline" value="2020/01/09 23:59"/>
   	<property name="description" value="Jump high and win!"/>
-  	<property name="rookieGoal" value="This is a rookie goal!"/>
+  	<property name="rookieGoal" value="Finish the challenge!"/>
   	<property name="rookieReward">
   		<ref bean="money04"/>
   	</property>
-  	<property name="averageGoal" value="This is an average goal!"/>
+  	<property name="averageGoal" value="Jump at least 1 metre!"/>
   	<property name="averageReward">
   		<ref bean="money03"/>
   	</property>
-  	<property name="expertGoal" value="This is an expert goal!"/>
+  	<property name="expertGoal" value="Break the world record!"/>
   	<property name="expertReward">
   		<ref bean="money05"/>
   	</property>
@@ -352,15 +374,15 @@
   	<property name="title" value="Challenge 1"/>
   	<property name="deadline" value="2021/11/24 21:47"/>
   	<property name="description" value="The fastest will win!"/>
-  	<property name="rookieGoal" value="This is a rookie goal!"/>
+  	<property name="rookieGoal" value="Finish the challenge!"/>
   	<property name="rookieReward">
   		<ref bean="money02"/>
   	</property>
-  	<property name="averageGoal" value="This is an average goal!"/>
+  	<property name="averageGoal" value="Finish in less than 30 minutes!"/>
   	<property name="averageReward">
   		<ref bean="money05"/>
   	</property>
-  	<property name="expertGoal" value="This is an expert goal!"/>
+  	<property name="expertGoal" value="Finish in less than 1 minute!"/>
   	<property name="expertReward">
   		<ref bean="money06"/>
   	</property>
