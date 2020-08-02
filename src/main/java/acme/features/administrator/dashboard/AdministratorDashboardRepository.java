@@ -39,8 +39,8 @@ public interface AdministratorDashboardRepository extends AbstractRepository {
 	Collection<Object[]> toolRecordsBySector();
 
 	@Query("select count(tr) from TechnologyRecord tr group by tr.openSource")
-	Collection<Integer> techRecordsSource();
+	Collection<Integer> techRecordsLicence();
 
 	@Query("select count(tr) from ToolRecord tr group by tr.openSource")
-	Collection<Integer> toolRecordsSource();
+	Collection<Integer> toolRecordsLicence();
 }

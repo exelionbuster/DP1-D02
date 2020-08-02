@@ -23,6 +23,9 @@ text-align: center}
 	<acme:message code="administrator.dashboard.form.title" />
 </h1>
 
+<br />
+<br />
+
 <table>
 	<tr>
 		<td>
@@ -64,7 +67,7 @@ text-align: center}
 			<acme:message code="administrator.dashboard.form.table.cell.stats.min"/>
 		</td>
 		<td>
-			<acme:print value="${ minimumMinMoneyActiveInquiries}"/>
+			<acme:print value="${ minimumMinMoneyActiveInquiries}"/> 	&euro;
 		</td>
 	</tr>
 	<tr>
@@ -72,7 +75,7 @@ text-align: center}
 			<acme:message code="administrator.dashboard.form.table.cell.stats.max"/>
 		</td>
 		<td>
-			<acme:print value="${ maximumMinMoneyActiveInquiries}"/>
+			<acme:print value="${ maximumMinMoneyActiveInquiries}"/>	&euro;
 		</td>
 	</tr>
 	<tr>
@@ -80,7 +83,7 @@ text-align: center}
 			<acme:message code="administrator.dashboard.form.table.cell.stats.avg"/>	
 		</td>
 		<td>
-			<acme:print value="${ avgMinMoneyActiveInquiries}"/>
+			<acme:print value="${ avgMinMoneyActiveInquiries}"/>	&euro;
 		</td>
 	</tr>
 	<tr>
@@ -88,7 +91,7 @@ text-align: center}
 			<acme:message code="administrator.dashboard.form.table.cell.stats.stddev"/>
 		</td>
 		<td>
-			<acme:print value="${ stddevMinMoneyActiveInquiries}"/>
+			<acme:print value="${ stddevMinMoneyActiveInquiries}"/>	&euro;
 		</td>
 	</tr>
 </table>
@@ -105,7 +108,7 @@ text-align: center}
 			<acme:message code="administrator.dashboard.form.table.cell.stats.min"/>
 		</td>
 		<td>
-			<acme:print value="${ minimumMaxMoneyActiveInquiries}"/>
+			<acme:print value="${ minimumMaxMoneyActiveInquiries}"/>	&euro;
 		</td>
 	</tr>
 	<tr>
@@ -113,7 +116,7 @@ text-align: center}
 			<acme:message code="administrator.dashboard.form.table.cell.stats.max"/>
 		</td>
 		<td>
-			<acme:print value="${ maximumMaxMoneyActiveInquiries}"/>
+			<acme:print value="${ maximumMaxMoneyActiveInquiries}"/>	&euro;
 		</td>
 	</tr>
 	<tr>
@@ -121,7 +124,7 @@ text-align: center}
 			<acme:message code="administrator.dashboard.form.table.cell.stats.avg"/>	
 		</td>
 		<td>
-			<acme:print value="${ avgMaxMoneyActiveInquiries}"/>
+			<acme:print value="${ avgMaxMoneyActiveInquiries}"/>	&euro;
 		</td>
 	</tr>
 	<tr>
@@ -129,7 +132,7 @@ text-align: center}
 			<acme:message code="administrator.dashboard.form.table.cell.stats.stddev"/>
 		</td>
 		<td>
-			<acme:print value="${ stddevMaxMoneyActiveInquiries}"/>
+			<acme:print value="${ stddevMaxMoneyActiveInquiries}"/>	&euro;
 		</td>
 	</tr>
 </table>
@@ -146,7 +149,7 @@ text-align: center}
 			<acme:message code="administrator.dashboard.form.table.cell.stats.min"/>
 		</td>
 		<td>
-			<acme:print value="${ minimumMinMoneyActiveOvertures}"/>
+			<acme:print value="${ minimumMinMoneyActiveOvertures}"/>	&euro;
 		</td>
 	</tr>
 	<tr>
@@ -154,7 +157,7 @@ text-align: center}
 			<acme:message code="administrator.dashboard.form.table.cell.stats.max"/>
 		</td>
 		<td>
-			<acme:print value="${ maximumMinMoneyActiveOvertures}"/>
+			<acme:print value="${ maximumMinMoneyActiveOvertures}"/>	&euro;
 		</td>
 	</tr>
 	<tr>
@@ -162,7 +165,7 @@ text-align: center}
 			<acme:message code="administrator.dashboard.form.table.cell.stats.avg"/>	
 		</td>
 		<td>
-			<acme:print value="${ avgMinMoneyActiveOvertures}"/>
+			<acme:print value="${ avgMinMoneyActiveOvertures}"/>	&euro;
 		</td>
 	</tr>
 	<tr>
@@ -170,7 +173,7 @@ text-align: center}
 			<acme:message code="administrator.dashboard.form.table.cell.stats.stddev"/>
 		</td>
 		<td>
-			<acme:print value="${ stddevMinMoneyActiveOvertures}"/>
+			<acme:print value="${ stddevMinMoneyActiveOvertures}"/>	&euro;
 		</td>
 	</tr>
 </table>
@@ -187,7 +190,7 @@ text-align: center}
 			<acme:message code="administrator.dashboard.form.table.cell.stats.min"/>
 		</td>
 		<td>
-			<acme:print value="${ minimumMaxMoneyActiveOvertures}"/>
+			<acme:print value="${ minimumMaxMoneyActiveOvertures}"/>	&euro;
 		</td>
 	</tr>
 	<tr>
@@ -195,7 +198,7 @@ text-align: center}
 			<acme:message code="administrator.dashboard.form.table.cell.stats.max"/>
 		</td>
 		<td>
-			<acme:print value="${ maximumMaxMoneyActiveOvertures}"/>
+			<acme:print value="${ maximumMaxMoneyActiveOvertures}"/>	&euro;
 		</td>
 	</tr>
 	<tr>
@@ -203,7 +206,7 @@ text-align: center}
 			<acme:message code="administrator.dashboard.form.table.cell.stats.avg"/>	
 		</td>
 		<td>
-			<acme:print value="${ avgMaxMoneyActiveOvertures}"/>
+			<acme:print value="${ avgMaxMoneyActiveOvertures}"/>	&euro;
 		</td>
 	</tr>
 	<tr>
@@ -211,7 +214,7 @@ text-align: center}
 			<acme:message code="administrator.dashboard.form.table.cell.stats.stddev"/>
 		</td>
 		<td>
-			<acme:print value="${ stddevMaxMoneyActiveOvertures}"/>
+			<acme:print value="${ stddevMaxMoneyActiveOvertures}"/>	&euro;
 		</td>
 	</tr>
 </table>
@@ -225,7 +228,7 @@ text-align: center}
 </div>
 
 <div class="containerR">
-	<b><acme:message code="administrator.dashboard.form.chart.title.techs-by-source"/></b>
+	<b><acme:message code="administrator.dashboard.form.chart.title.techs-by-licence"/></b>
 	<br /><br />
 	<canvas id="chart-area2" ></canvas>
 </div>
@@ -291,8 +294,8 @@ text-align: center}
 			datasets: [
 				{
 					data: [
-						<jstl:forEach var="sourceCount" items="${techRecordsSource}" varStatus="loop">
-							<jstl:out value="${sourceCount}"/>
+						<jstl:forEach var="licenceCount" items="${techRecordsLicence}" varStatus="loop">
+							<jstl:out value="${licenceCount}"/>
 							<jstl:if test="${!loop.last}"> ,</jstl:if>							
 						</jstl:forEach>
 					],
@@ -326,7 +329,7 @@ text-align: center}
 </div>
 
 <div class="containerR">
-	<b><acme:message code="administrator.dashboard.form.chart.title.tools-by-source"/></b>
+	<b><acme:message code="administrator.dashboard.form.chart.title.tools-by-licence"/></b>
 	<br /><br />
 	<canvas id="chart-area4" ></canvas>
 </div>
@@ -392,8 +395,8 @@ text-align: center}
 			datasets: [
 				{
 					data: [
-						<jstl:forEach var="sourceCount" items="${toolRecordsSource}" varStatus="loop">
-							<jstl:out value="${sourceCount}"/>
+						<jstl:forEach var="licenceCount" items="${toolRecordsLicence}" varStatus="loop">
+							<jstl:out value="${licenceCount}"/>
 							<jstl:if test="${!loop.last}"> ,</jstl:if>							
 						</jstl:forEach>
 					],

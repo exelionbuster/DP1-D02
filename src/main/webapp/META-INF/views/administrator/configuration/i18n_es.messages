@@ -9,8 +9,8 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-administrator.configuration.form.label.spamWords = Palabras Spam
-administrator.configuration.form.label.threshold = Umbral (%)
-administrator.configuration.form.label.activitySectors = Sectores de Actividad
+administrator.configuration.form.label.spam-words 		= Palabras spam
+administrator.configuration.form.label.threshold 		= Umbral de spam (%)
+administrator.configuration.form.label.activity-sectors = Sectores de actividad
 	
-administrator.configuration.form.button.return = Atrás
+administrator.configuration.form.button.return 			= Volver

@@ -19,7 +19,7 @@
 
 	<acme:list-column code="authenticated.tool-record.list.label.title" path="title" width="20%"/>
 	<acme:list-column code="authenticated.tool-record.list.label.licence" path="licence" width="20%"/>
-	<acme:list-column code="authenticated.tool-record.list.label.activitySector" path="activitySector" width="20%"/>
+	<acme:list-column code="authenticated.tool-record.list.label.activity-sector" path="activitySector" width="20%"/>
 	<acme:list-column code="authenticated.tool-record.list.label.stars" path="stars" width="20%"/>	
 	
 </acme:list>

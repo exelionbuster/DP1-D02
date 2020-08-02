@@ -17,10 +17,10 @@
 
 <acme:form readonly="true">
 	<acme:form-textbox code="anonymous.tool-record.form.label.title" path="title" />
-	<acme:form-textbox code="anonymous.tool-record.form.label.activitySector" path="activitySector" />
+	<acme:form-textbox code="anonymous.tool-record.form.label.activity-sector" path="activitySector" />
 	<acme:form-textbox code="anonymous.tool-record.form.label.inventor" path="inventor" />
 	<acme:form-textbox code="anonymous.tool-record.form.label.description" path="description" />
-	<acme:form-url code="anonymous.tool-record.form.label.webSite" path="webSite" />
+	<acme:form-url code="anonymous.tool-record.form.label.website" path="webSite" />
 	<acme:form-textbox code="anonymous.tool-record.form.label.email" path="email"/>
 	<acme:form-textbox code="anonymous.tool-record.form.label.licence" path="licence" />
 	<acme:form-textbox code="anonymous.tool-record.form.label.stars" path="stars"/>
