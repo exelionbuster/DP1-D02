@@ -294,8 +294,8 @@ text-align: center}
 			datasets: [
 				{
 					data: [
-						<jstl:forEach var="sourceCount" items="${techRecordsSource}" varStatus="loop">
-							<jstl:out value="${sourceCount}"/>
+						<jstl:forEach var="licenceCount" items="${techRecordsLicence}" varStatus="loop">
+							<jstl:out value="${licenceCount}"/>
 							<jstl:if test="${!loop.last}"> ,</jstl:if>							
 						</jstl:forEach>
 					],
@@ -395,8 +395,8 @@ text-align: center}
 			datasets: [
 				{
 					data: [
-						<jstl:forEach var="sourceCount" items="${toolRecordsSource}" varStatus="loop">
-							<jstl:out value="${sourceCount}"/>
+						<jstl:forEach var="licenceCount" items="${toolRecordsLicence}" varStatus="loop">
+							<jstl:out value="${licenceCount}"/>
 							<jstl:if test="${!loop.last}"> ,</jstl:if>							
 						</jstl:forEach>
 					],

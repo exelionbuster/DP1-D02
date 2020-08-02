@@ -77,9 +77,9 @@ public class AdministratorDashboardShowService implements AbstractShowService<Ad
 			toolRecordsBySector.add((Long) trsector[1]);
 		}
 
-		List<Integer> techRecordsSource = new ArrayList<>(this.repository.techRecordsSource());
+		List<Integer> techRecordsLicence = new ArrayList<>(this.repository.techRecordsLicence());
 
-		List<Integer> toolRecordsSource = new ArrayList<>(this.repository.toolRecordsSource());
+		List<Integer> toolRecordsLicence = new ArrayList<>(this.repository.toolRecordsLicence());
 
 		entity.setNumberOfNotices(numberOfNotices);
 		entity.setNumberOfTechnologyRecords(numberOfTechnologyRecords);
@@ -108,19 +108,19 @@ public class AdministratorDashboardShowService implements AbstractShowService<Ad
 		entity.setTechRecordsSectors(techRecordsSectors);
 		entity.setTechRecordsBySector(techRecordsBySector);
 
-		entity.setTechRecordsSource(techRecordsSource);
+		entity.setTechRecordsLicence(techRecordsLicence);
 
 		entity.setToolRecordsSectors(toolRecordsSectors);
 		entity.setToolRecordsBySector(toolRecordsBySector);
 
-		entity.setToolRecordsSource(toolRecordsSource);
+		entity.setToolRecordsLicence(toolRecordsLicence);
 
 		request.unbind(entity, model, "numberOfNotices", "numberOfTechnologyRecords", "numberOfToolRecords", 
 			"minimumMinMoneyActiveInquiries", "maximumMinMoneyActiveInquiries", "avgMinMoneyActiveInquiries", "stddevMinMoneyActiveInquiries", 
 			"minimumMaxMoneyActiveInquiries", "maximumMaxMoneyActiveInquiries", "avgMaxMoneyActiveInquiries", "stddevMaxMoneyActiveInquiries", 
 			"minimumMinMoneyActiveOvertures", "maximumMinMoneyActiveOvertures", "avgMinMoneyActiveOvertures", "stddevMinMoneyActiveOvertures",
 			"minimumMaxMoneyActiveOvertures", "maximumMaxMoneyActiveOvertures", "avgMaxMoneyActiveOvertures", "stddevMaxMoneyActiveOvertures", 
-			"techRecordsSectors", "techRecordsBySector", "techRecordsSource", "toolRecordsSectors", "toolRecordsBySector", "toolRecordsSource");
+			"techRecordsSectors", "techRecordsBySector", "techRecordsLicence", "toolRecordsSectors", "toolRecordsBySector", "toolRecordsLicence");
 	}
 
 	@Override
