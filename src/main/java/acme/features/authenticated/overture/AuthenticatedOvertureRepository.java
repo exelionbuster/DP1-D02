@@ -24,7 +24,7 @@ import acme.framework.repositories.AbstractRepository;
 public interface AuthenticatedOvertureRepository extends AbstractRepository {
 
 	@Query("select o from Overture o where o.deadline > current_timestamp")
-	Collection<Overture> findMany();
+	Collection<Overture> findActiveOvertures();
 
 	@Query("select a from Overture a where a.id = ?1")
 	Overture findOneById(int id);

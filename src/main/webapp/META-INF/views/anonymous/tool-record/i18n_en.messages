@@ -9,16 +9,17 @@
 # they accept any liabilities with respect to them.
 
 anonymous.tool-record.list.label.title = Title
-anonymous.tool-record.list.label.activitySector = Activity Sector
+anonymous.tool-record.list.label.licence = Licence
+anonymous.tool-record.list.label.activity-sector = Activity Sector
 anonymous.tool-record.list.label.stars = Stars
 
-anonymous.tool-record.form.label.title = Title
-anonymous.tool-record.form.label.activitySector = Activity Sector
-anonymous.tool-record.form.label.inventor = Inventor
-anonymous.tool-record.form.label.description = Description
-anonymous.tool-record.form.label.webSite = Website
-anonymous.tool-record.form.label.email = email
-anonymous.tool-record.form.label.openSource = Open Source
-anonymous.tool-record.form.label.stars = Stars
+anonymous.tool-record.form.label.title = Title:
+anonymous.tool-record.form.label.activity-sector = Activity sector:
+anonymous.tool-record.form.label.inventor = Inventor:
+anonymous.tool-record.form.label.description = Description:
+anonymous.tool-record.form.label.website = Website:
+anonymous.tool-record.form.label.email = E-mail:
+anonymous.tool-record.form.label.licence = Licence:
+anonymous.tool-record.form.label.stars = Stars:
 	
 anonymous.tool-record.button.return = Return

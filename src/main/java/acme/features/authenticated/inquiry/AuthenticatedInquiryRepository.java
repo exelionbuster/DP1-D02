@@ -24,7 +24,7 @@ import acme.framework.repositories.AbstractRepository;
 public interface AuthenticatedInquiryRepository extends AbstractRepository {
 
 	@Query("select i from Inquiry i where i.deadline > current_timestamp")
-	Collection<Inquiry> findMany();
+	Collection<Inquiry> findActiveInquiries();
 
 	@Query("select a from Inquiry a where a.id = ?1")
 	Inquiry findOneById(int id);

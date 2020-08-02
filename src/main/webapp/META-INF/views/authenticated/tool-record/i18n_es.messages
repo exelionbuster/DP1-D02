@@ -10,16 +10,17 @@
 # they accept any liabilities with respect to them.
 
 authenticated.tool-record.list.label.title = Título
-authenticated.tool-record.list.label.activitySector = Sector de actividad
+authenticated.tool-record.list.label.licence = Licencia
+authenticated.tool-record.list.label.activity-sector = Sector de actividad
 authenticated.tool-record.list.label.stars = Estrellas
 
-authenticated.tool-record.form.label.title = Título
-authenticated.tool-record.form.label.activitySector = Sector de actividad
-authenticated.tool-record.form.label.inventor = Creador
-authenticated.tool-record.form.label.description = Descripción
-authenticated.tool-record.form.label.webSite = Pág. Web
-authenticated.tool-record.form.label.email = Correo Electrónico
-authenticated.tool-record.form.label.openSource = Código abierto
-authenticated.tool-record.form.label.stars = Estrellas
+authenticated.tool-record.form.label.title = Título:
+authenticated.tool-record.form.label.activity-sector = Sector de actividad:
+authenticated.tool-record.form.label.inventor = Creador:
+authenticated.tool-record.form.label.description = Descripción:
+authenticated.tool-record.form.label.website = Página Web:
+authenticated.tool-record.form.label.email = Correo electrónico:
+authenticated.tool-record.form.label.licence = Licencia:
+authenticated.tool-record.form.label.stars = Estrellas:
 	
-authenticated.tool-record.button.return = Atrás
+authenticated.tool-record.button.return = Volver

@@ -9,16 +9,17 @@
 # they accept any liabilities with respect to them.
 
 authenticated.tool-record.list.label.title = Title
-authenticated.tool-record.list.label.activitySector = Activity Sector
+authenticated.tool-record.list.label.licence = Licence
+authenticated.tool-record.list.label.activity-sector = Activity sector
 authenticated.tool-record.list.label.stars = Stars
 
-authenticated.tool-record.form.label.title = Title
-authenticated.tool-record.form.label.activitySector = Activity Sector
-authenticated.tool-record.form.label.inventor = Inventor
-authenticated.tool-record.form.label.description = Description
-authenticated.tool-record.form.label.webSite = Website
-authenticated.tool-record.form.label.email = email
-authenticated.tool-record.form.label.openSource = Open Source
-authenticated.tool-record.form.label.stars = Stars
+authenticated.tool-record.form.label.title = Title:
+authenticated.tool-record.form.label.activity-sector = Activity sector:
+authenticated.tool-record.form.label.inventor = Inventor:
+authenticated.tool-record.form.label.description = Description:
+authenticated.tool-record.form.label.website = Website:
+authenticated.tool-record.form.label.email = E-mail:
+authenticated.tool-record.form.label.licence = Licence:
+authenticated.tool-record.form.label.stars = Stars:
 	
 authenticated.tool-record.button.return = Return

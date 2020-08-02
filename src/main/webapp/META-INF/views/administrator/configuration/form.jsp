@@ -16,9 +16,9 @@
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
 <acme:form readonly="true">
-	<acme:form-textbox code="administrator.configuration.form.label.spamWords" path="spamWords" />
+	<acme:form-textbox code="administrator.configuration.form.label.spam-words" path="spamWords" />
 	<acme:form-textbox code="administrator.configuration.form.label.threshold" path="threshold" />
-	<acme:form-textbox code="administrator.configuration.form.label.activitySectors" path="activitySectors" />
+	<acme:form-textbox code="administrator.configuration.form.label.activity-sectors" path="activitySectors" />
 	
   	<acme:form-return code="administrator.configuration.form.button.return"/>
 </acme:form>
