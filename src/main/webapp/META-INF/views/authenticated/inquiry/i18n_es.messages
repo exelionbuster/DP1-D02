@@ -12,11 +12,11 @@ authenticated.inquiry.list.label.title = Título
 authenticated.inquiry.list.label.deadline = Fecha límite
 
 authenticated.inquiry.form.label.title = Título:
-authenticated.inquiry.form.label.creationDate = Fecha de creación:
+authenticated.inquiry.form.label.creation-date = Fecha de creación:
 authenticated.inquiry.form.label.deadline = Fecha límite:
 authenticated.inquiry.form.label.description = Descripción:
-authenticated.inquiry.form.label.minMoney = Dinero mínimo:
-authenticated.inquiry.form.label.maxMoney = Dinero máximo:
-authenticated.inquiry.form.label.contactEmail = Email de contacto:
+authenticated.inquiry.form.label.min-money = Dinero mínimo:
+authenticated.inquiry.form.label.max-money = Dinero máximo:
+authenticated.inquiry.form.label.contact-email = E-mail de contacto:
 
 authenticated.inquiry.form.button.return = Volver

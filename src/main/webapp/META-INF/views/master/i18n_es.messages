@@ -29,6 +29,9 @@ master.menu.sign-out = Salir
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous 							= Anónimo
+master.menu.anonymous.notice.list-active		= Noticias vigentes
+master.menu.anonymous.technology-record.list    = Technologías
+master.menu.anonymous.tool-record.list   		= Herramientas
 master.menu.anonymous.favourite-link.adri		= Enlace de Adri
 master.menu.anonymous.favourite-link.alberto	= Enlace de Alberto
 master.menu.anonymous.favourite-link.luca 		= Enlace de Luca
@@ -41,28 +44,25 @@ master.menu.anonymous.bulletin.fernandez.create = Crear un boletín para Fernán
 master.menu.anonymous.bulletin.fernandez.list 	= Boletines de Fernández
 master.menu.anonymous.bulletin.toledo.create 	= Crear un boletín para Toledo
 master.menu.anonymous.bulletin.toledo.list	 	= Boletines de Toledo
-master.menu.anonymous.notice.list				= Noticias vigentes
-master.menu.anonymous.technology-record.list    = Lista de Registros de Technología
-master.menu.anonymous.tool-record.list   		= Lista de Registros de Herramientas
 
 # master.menu.authenticated ###################################################
 
-master.menu.authenticated = Autenticado
-master.menu.authenticated.inquiry = Consultas vigentes
-master.menu.authenticated.overture = Propuestas vigentes
-master.menu.authenticated.challenge = Desafíos vigentes
-master.menu.authenticated.tool-record = Lista de Registos de Herramientas
-master.menu.authenticated.notice.list-active	= Noticias vigentes
-master.menu.authenticated.technology-record.list = Tecnologías
+master.menu.authenticated 							= Autenticado
+master.menu.authenticated.notice.list-active		= Noticias vigentes
+master.menu.authenticated.inquiry.list-active		= Consultas vigentes
+master.menu.authenticated.overture.list-active		= Propuestas vigentes
+master.menu.authenticated.challenge.list-active		= Desafíos vigentes
+master.menu.authenticated.tool-record.list			= Herramientas
+master.menu.authenticated.technology-record.list 	= Tecnologías
 
 # master.menu.administrator ###################################################
 
-master.menu.administrator 				= Administrador
-master.menu.administrator.notice.list 	= Todas las noticias
-master.menu.administrator.dashboard		= Panel de estadísticas
-master.menu.administrator.user-accounts = Cuentas de usuario
-master.menu.administrator.configuration = Configuración
-master.menu.administrator.shutdown 		= Parar el sistema
+master.menu.administrator 					= Administrador
+master.menu.administrator.notice.list-all	= Todas las noticias
+master.menu.administrator.dashboard			= Panel de estadísticas
+master.menu.administrator.user-accounts 	= Cuentas de usuario
+master.menu.administrator.configuration 	= Configuración
+master.menu.administrator.shutdown 			= Parar el sistema
 
 # master.menu.provider ########################################################
 
