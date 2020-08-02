@@ -571,7 +571,7 @@ has v</panel_attributes>
 Configuration
 --
 + spamWords: String {NotBlank}
-+ spamThreshold: double {Range(0, 1)}
++ spamThreshold: double {Range(0, 100)}
 + activitySectors: String {NotBlank}</panel_attributes>
     <additional_attributes/>
   </element>
