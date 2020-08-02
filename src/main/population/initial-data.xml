@@ -43,12 +43,58 @@
 	<bean name="anonymousAnonymous" class="acme.framework.entities.Anonymous">
 		<property name="userAccount" ref="anonymousUserAccount" />
 	</bean>
+	
+	<!-- Authenticated users -->
+	
+	<bean name="authenticatedUserAccount01" class="acme.framework.entities.UserAccount">
+		<property name="username" value="venera" />
+		<property name="password" value="venera" />
+		<property name="enabled" value="true" />
+		<property name="identity">
+			<bean class="acme.datatypes.UserIdentity">
+				<property name="name" value="Kate" />
+				<property name="surname" value="Hoshimiya" />
+				<property name="email" value="hoshimiya.kate@acme.com" />
+			</bean>
+		</property>
+		<property name="roles">
+			<list>
+				<ref bean="authenticatedAuthenticated01" />
+			</list>
+		</property>
+	</bean>
+	
+	<bean name="authenticatedAuthenticated01" class="acme.framework.entities.Authenticated">
+		<property name="userAccount" ref="authenticatedUserAccount01" />
+	</bean>
 
+	<bean name="authenticatedUserAccount02" class="acme.framework.entities.UserAccount">
+		<property name="username" value="usuario" />
+		<property name="password" value="usuario" />
+		<property name="enabled" value="true" />
+		<property name="identity">
+			<bean class="acme.datatypes.UserIdentity">
+				<property name="name" value="Pekora" />
+				<property name="surname" value="Usada" />
+				<property name="email" value="usada.pekora@acme.com" />
+			</bean>
+		</property>
+		<property name="roles">
+			<list>
+				<ref bean="authenticatedAuthenticated02" />
+			</list>
+		</property>
+	</bean>
+	
+	<bean name="authenticatedAuthenticated02" class="acme.framework.entities.Authenticated">
+		<property name="userAccount" ref="authenticatedUserAccount02" />
+	</bean>
+	
 	<!-- Administrators -->
 	
 	<bean name="administratorUserAccount" class="acme.framework.entities.UserAccount">
-		<property name="username" value="admin" />
-		<property name="password" value="admin" />
+		<property name="username" value="administrator" />
+		<property name="password" value="administrator" />
 		<property name="enabled" value="true" />
 		<property name="identity">
 			<bean class="acme.datatypes.UserIdentity">
@@ -72,6 +118,33 @@
 	<bean name="administratorAuthenticated" class="acme.framework.entities.Authenticated">
 		<property name="userAccount" ref="administratorUserAccount" />
 	</bean>
+	
+	<bean name="administratorUserAccount2" class="acme.framework.entities.UserAccount">
+		<property name="username" value="admin" />
+		<property name="password" value="admin" />
+		<property name="enabled" value="true" />
+		<property name="identity">
+			<bean class="acme.datatypes.UserIdentity">
+				<property name="name" value="Admin" />
+				<property name="surname" value="Acme.com" />
+				<property name="email" value="admin@acme.com" />
+			</bean>
+		</property>
+		<property name="roles">
+			<list>
+				<ref bean="administratorAdministrator2" />
+				<ref bean="administratorAuthenticated2" />
+			</list>
+		</property>
+	</bean>
+
+	<bean name="administratorAdministrator2" class="acme.framework.entities.Administrator">
+		<property name="userAccount" ref="administratorUserAccount2" />
+	</bean>
+	
+	<bean name="administratorAuthenticated2" class="acme.framework.entities.Authenticated">
+		<property name="userAccount" ref="administratorUserAccount2" />
+	</bean>	
 	
 	<!-- Configuration -->
 	
