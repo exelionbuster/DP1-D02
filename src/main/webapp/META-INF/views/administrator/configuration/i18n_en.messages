@@ -8,8 +8,8 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-administrator.configuration.form.label.spamWords = Spamwords
-administrator.configuration.form.label.threshold = Treshhold (%)
-administrator.configuration.form.label.activitySectors = Activity Sectors
+administrator.configuration.form.label.spam-words 		= Spam words
+administrator.configuration.form.label.threshold 		= Spam treshhold (%)
+administrator.configuration.form.label.activity-sectors = Activity sectors
 	
-administrator.configuration.form.button.return = Return
+administrator.configuration.form.button.return 			= Return

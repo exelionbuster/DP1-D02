@@ -12,11 +12,11 @@ authenticated.overture.list.label.title = Title
 authenticated.overture.list.label.deadline = Deadline
 
 authenticated.overture.form.label.title = Title:
-authenticated.overture.form.label.creationDate = Creation date:
+authenticated.overture.form.label.creation-date = Creation date:
 authenticated.overture.form.label.deadline = Deadline:
 authenticated.overture.form.label.description = Description:
-authenticated.overture.form.label.minMoney = Minimun money:
-authenticated.overture.form.label.maxMoney = Maximun money:
-authenticated.overture.form.label.contactEmail = Contact email:
+authenticated.overture.form.label.min-money = Minimun money:
+authenticated.overture.form.label.max-money = Maximun money:
+authenticated.overture.form.label.contact-email = Contact e-mail:
 
 authenticated.overture.form.button.return = Return

@@ -17,5 +17,5 @@ administrator.dashboard.form.table.title.max-money-active-overtures	=	Maximum mo
 administrator.dashboard.form.chart.title.techs-by-sector			=	Technologies by sector
 administrator.dashboard.form.chart.title.tools-by-sector			=	Tools by sector
 
-administrator.dashboard.form.chart.title.techs-by-source			=	Technologies by source
-administrator.dashboard.form.chart.title.tools-by-source			=	Tools by source
+administrator.dashboard.form.chart.title.techs-by-licence			=	Technologies by licence
+administrator.dashboard.form.chart.title.tools-by-licence			=	Tools by licence

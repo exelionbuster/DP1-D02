@@ -11,15 +11,15 @@
 
 anonymous.tool-record.list.label.title = Título
 anonymous.tool-record.list.label.licence = Licencia
-anonymous.tool-record.list.label.activitySector = Sector de actividad
+anonymous.tool-record.list.label.activity-sector = Sector de actividad
 anonymous.tool-record.list.label.stars = Estrellas
 
 anonymous.tool-record.form.label.title = Título:
-anonymous.tool-record.form.label.activitySector = Sector de actividad:
+anonymous.tool-record.form.label.activity-sector = Sector de actividad:
 anonymous.tool-record.form.label.inventor = Creador:
 anonymous.tool-record.form.label.description = Descripción:
-anonymous.tool-record.form.label.webSite = Página Web:
-anonymous.tool-record.form.label.email = Correo Electrónico:
+anonymous.tool-record.form.label.website = Página web:
+anonymous.tool-record.form.label.email = Correo electrónico:
 anonymous.tool-record.form.label.licence = Licencia:
 anonymous.tool-record.form.label.stars = Estrellas:
 	
