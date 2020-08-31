@@ -66,6 +66,7 @@ CREATE TABLE `ales_bulletin` (
 
 LOCK TABLES `ales_bulletin` WRITE;
 /*!40000 ALTER TABLE `ales_bulletin` DISABLE KEYS */;
+INSERT INTO `ales_bulletin` VALUES (23,0,'Manuel Ales','2','2002-04-20 14:00:00.000000','Hola Mundo'),(24,0,'Master Chief','117','2002-04-21 14:00:00.000000','I love you Cortana'),(25,0,'Spike Spiegel','27','2002-04-22 14:00:00.000000','La vida es como un juego de cartas, unas veces se gana y otras se pierde.');
 /*!40000 ALTER TABLE `ales_bulletin` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -149,6 +150,7 @@ CREATE TABLE `banner` (
 
 LOCK TABLES `banner` WRITE;
 /*!40000 ALTER TABLE `banner` DISABLE KEYS */;
+INSERT INTO `banner` VALUES (54,0,'https://upload.wikimedia.org/wikipedia/commons/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg','Esto es un slogan','https://es.wikipedia.org/',51),(55,0,'https://upload.wikimedia.org/wikipedia/commons/d/d1/Artist%E2%80%99s_impression_of_the_quasar_3C_279.jpg','Esto es un slogan','https://es.wikipedia.org/',51),(56,0,'https://upload.wikimedia.org/wikipedia/commons/f/f0/Vega_-_star_in_Lyra.png','Esto es un slogan','https://es.wikipedia.org/',NULL),(57,0,'https://upload.wikimedia.org/wikipedia/commons/f/f0/Vega_-_star_in_Lyra.png','Esto es un slogan','https://es.wikipedia.org/',52);
 /*!40000 ALTER TABLE `banner` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -176,6 +178,7 @@ CREATE TABLE `bonacini_bulletin` (
 
 LOCK TABLES `bonacini_bulletin` WRITE;
 /*!40000 ALTER TABLE `bonacini_bulletin` DISABLE KEYS */;
+INSERT INTO `bonacini_bulletin` VALUES (19,0,'Emiya Shirou','Fuyuki','2002-04-20 14:00:00.000000','People die if they\'re killed...'),(20,0,'Luca Bonacini','Planet Usamin','2014-04-02 12:00:00.000000','I am eternally 17 (◕‿◕✿)'),(21,0,'Suzumiya Haruhi','Tokyo','2007-10-23 20:37:00.000000','All ships, open fire! Go out there and burn the enemy leader with all the fires of hell!'),(22,0,'Sasasegawa Sasami','Keyverse','2011-05-13 10:45:00.000000','My name is Sasasesa... Sasasegawa Sasami!');
 /*!40000 ALTER TABLE `bonacini_bulletin` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -211,6 +214,7 @@ CREATE TABLE `challenge` (
 
 LOCK TABLES `challenge` WRITE;
 /*!40000 ALTER TABLE `challenge` DISABLE KEYS */;
+INSERT INTO `challenge` VALUES (44,0,'Achieve a podium finish!',250,'€','2020-10-04 21:59:00.000000','The first to finish wins!','Finish in first place!',500,'€','Finish the challenge!',100,'€','Challenge 1'),(45,0,'Jump at least 1 metre!',100,'€','2020-01-09 22:59:00.000000','Jump high and win!','Break the world record!',700,'€','Finish the challenge!',250,'€','Challenge 2'),(46,0,'Finish in less than 30 minutes!',700,'€','2021-11-24 20:47:00.000000','The fastest will win!','Finish in less than 1 minute!',1000,'€','Finish the challenge!',500,'€','Challenge 1');
 /*!40000 ALTER TABLE `challenge` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -294,6 +298,7 @@ CREATE TABLE `credit_card` (
 
 LOCK TABLES `credit_card` WRITE;
 /*!40000 ALTER TABLE `credit_card` DISABLE KEYS */;
+INSERT INTO `credit_card` VALUES (51,0,'Visa','000','2025-06-27 22:00:00.000000','Alguien Uno','5500000000000004'),(52,0,'Master Card','123','2024-06-11 22:00:00.000000','Alguien Dos','6011000000000004'),(53,0,'Visa','999','2022-05-09 22:00:00.000000','Alguien Tres','3088000000000009');
 /*!40000 ALTER TABLE `credit_card` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -321,6 +326,7 @@ CREATE TABLE `fernandez_bulletin` (
 
 LOCK TABLES `fernandez_bulletin` WRITE;
 /*!40000 ALTER TABLE `fernandez_bulletin` DISABLE KEYS */;
+INSERT INTO `fernandez_bulletin` VALUES (17,0,'Espartaco','POP SMOKE - DIOR','2020-05-05 13:45:00.000000','It\'s so good!'),(18,0,'Lagarto Juancho','JACKBOYS, Pop Smoke, Travis Scott - GATTI','2020-06-05 15:40:00.000000','Good song!');
 /*!40000 ALTER TABLE `fernandez_bulletin` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -342,7 +348,7 @@ CREATE TABLE `hibernate_sequence` (
 
 LOCK TABLES `hibernate_sequence` WRITE;
 /*!40000 ALTER TABLE `hibernate_sequence` DISABLE KEYS */;
-INSERT INTO `hibernate_sequence` VALUES (14);
+INSERT INTO `hibernate_sequence` VALUES (58);
 /*!40000 ALTER TABLE `hibernate_sequence` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -375,6 +381,7 @@ CREATE TABLE `inquiry` (
 
 LOCK TABLES `inquiry` WRITE;
 /*!40000 ALTER TABLE `inquiry` DISABLE KEYS */;
+INSERT INTO `inquiry` VALUES (38,0,'contactEmail@gmail.com','2019-06-20 22:30:00.000000','2021-06-21 22:00:00.000000','This is a description!',500,'€',200,'€','Inquiry 1'),(39,0,'contactEmail@gmail.com','2019-05-13 15:30:00.000000','2019-07-19 20:30:00.000000','This is a description!',250,'€',100,'€','Inquiry 2'),(40,0,'contactEmail@gmail.com','2020-01-15 14:35:00.000000','2020-10-11 15:05:00.000000','This is a description!',700,'€',250,'€','Inquiry 3');
 /*!40000 ALTER TABLE `inquiry` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -404,6 +411,7 @@ CREATE TABLE `notice` (
 
 LOCK TABLES `notice` WRITE;
 /*!40000 ALTER TABLE `notice` DISABLE KEYS */;
+INSERT INTO `notice` VALUES (47,0,'This is a body!','2020-07-27 22:30:00.000000','2021-07-27 22:00:00.000000','https://upload.wikimedia.org/wikipedia/commons/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg','https://anilist.co/ ; https://es.wikipedia.org/','Notice 1'),(48,0,'This is a body 2!','2020-06-27 22:30:00.000000','2020-07-27 22:00:00.000000','https://upload.wikimedia.org/wikipedia/commons/d/d1/Artist%E2%80%99s_impression_of_the_quasar_3C_279.jpg',NULL,'Notice 2'),(49,0,'This is a body 3!','2020-06-27 22:30:00.000000','2021-07-27 22:00:00.000000','https://upload.wikimedia.org/wikipedia/commons/f/f0/Vega_-_star_in_Lyra.png','https://anilist.co/','Notice 3'),(50,0,'This is a body 3!','2020-06-27 22:30:00.000000','2021-07-27 22:00:00.000000','https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA04204_hires.jpg','https://es.wikipedia.org/','Notice 4');
 /*!40000 ALTER TABLE `notice` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -436,6 +444,7 @@ CREATE TABLE `overture` (
 
 LOCK TABLES `overture` WRITE;
 /*!40000 ALTER TABLE `overture` DISABLE KEYS */;
+INSERT INTO `overture` VALUES (41,0,'contactEmail@gmail.com','2018-03-11 09:30:00.000000','2021-01-11 23:00:00.000000','This is a description!',500,'€',200,'€','Overture 1'),(42,0,'contactEmail@gmail.com','2017-05-13 11:30:00.000000','2022-09-12 09:30:00.000000','This is a description!',250,'€',100,'€','Overture 2'),(43,0,'contactEmail@gmail.com','2020-01-25 08:45:00.000000','2020-06-28 05:55:00.000000','This is a description!',700,'€',250,'€','Overture 3');
 /*!40000 ALTER TABLE `overture` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -495,6 +504,7 @@ CREATE TABLE `technology_record` (
 
 LOCK TABLES `technology_record` WRITE;
 /*!40000 ALTER TABLE `technology_record` DISABLE KEYS */;
+INSERT INTO `technology_record` VALUES (26,0,'Science','Sample description','mail1@example.com','Dr. Robotnik',_binary '\0',3,'Technology 1','http://example1.com'),(27,0,'Technology','Sample description','mail2@example.com','Beakman',_binary '',1,'Technology 2','http://example2.com'),(28,0,'Technology','Sample description','mail3@example.com','Dr. Willy',_binary '\0',-3,'Technology 3','http://example3.com'),(29,0,'Business','Sample description','mail4@example.com','Dr. Emmett Brown (Doc)',_binary '',5,'Technology 4','http://example4.com'),(30,0,'Health','Sample description','mail5@example.com','Morty Sánchez',_binary '\0',-5,'Technology 5','http://example5.com'),(31,0,'Science','Sample description','mail5@example.com','Rintaro Okabe',_binary '\0',-5,'Technology 6','http://steinsgate.jp/');
 /*!40000 ALTER TABLE `technology_record` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -522,6 +532,7 @@ CREATE TABLE `toledo_bulletin` (
 
 LOCK TABLES `toledo_bulletin` WRITE;
 /*!40000 ALTER TABLE `toledo_bulletin` DISABLE KEYS */;
+INSERT INTO `toledo_bulletin` VALUES (14,0,'Alberto Toledo Mayorga','email@prueba1.com','2020-07-22 15:46:00.000000','Estoy feliz, prueba 1'),(15,0,'Alberto Toledo Mayorga','email@prueba2.com','2020-07-22 15:47:00.000000','Estoy muy feliz, prueba 2'),(16,0,'Alberto Toledo Mayorga','email@prueba3.com','2020-07-22 15:48:00.000000','Estoy muy, pero que muy feliz, prueba 3');
 /*!40000 ALTER TABLE `toledo_bulletin` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -553,6 +564,7 @@ CREATE TABLE `tool_record` (
 
 LOCK TABLES `tool_record` WRITE;
 /*!40000 ALTER TABLE `tool_record` DISABLE KEYS */;
+INSERT INTO `tool_record` VALUES (32,0,'Technology','Sample description','mail1@example.com','Dr. Pepper',_binary '\0',1,'Tool 1','http://example1.com'),(33,0,'Science','Sample description','mail2@example.com','Marcus Fenix',_binary '',-2,'Tool 2','http://example2.com'),(34,0,'Technology','Sample description','mail3@example.com','Megaman',_binary '\0',0,'Tool 3','http://example3.com'),(35,0,'Science','Sample description','mail4@example.com','Marty McFly',_binary '',-4,'Tool 4','http://example4.com'),(36,0,'Technology','Sample description','mail5@example.com','Al Pacino',_binary '\0',5,'Tool 5','http://example5.com'),(37,0,'Science','Sample description','mail5@example.com','Natasha',_binary '\0',5,'Tool 6','https://www.sekaiseifuku-zzz.com/');
 /*!40000 ALTER TABLE `tool_record` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -583,7 +595,7 @@ CREATE TABLE `user_account` (
 
 LOCK TABLES `user_account` WRITE;
 /*!40000 ALTER TABLE `user_account` DISABLE KEYS */;
-INSERT INTO `user_account` VALUES (1,0,_binary '\0','john.doe@acme.com','John','Doe','$2a$05$KYnU4OJH/UIK4jAAslFl4.ABImgy/2eAvB/eHH2sjM.f2nSfkJBVK','anonymous'),(3,0,_binary '','hoshimiya.kate@acme.com','Kate','Hoshimiya','$2a$05$5F1CEu/p8a8CspQ2ixoB7epNPuNHYh9QHK4khbwXYtOuoSNBoZNXu','venera'),(5,0,_binary '','usada.pekora@acme.com','Pekora','Usada','$2a$05$QAMUT4I1XAGaygltmTBoJe6ZXULEDLiyUzkrtmE4zrUDD1eCkU5h.','usuario'),(7,0,_binary '','administrator@acme.com','Administrator','Acme.com','$2a$05$ter8aquWQz.PYQawB.7ZauydZwTeYf5y7PSz9.FKn20/K5mgI7im6','administrator'),(10,0,_binary '','admin@acme.com','Admin','Acme.com','$2a$05$dvhw/Vsqr01KFFR0SqvtdOzpk9Ydeqpi3wh1ohQIYom4hkvfhtXRe','admin');
+INSERT INTO `user_account` VALUES (1,0,_binary '\0','john.doe@acme.com','John','Doe','$2a$05$ttp7mCdOzNfKezBpmc.L0urp5caVBmQagtxL1Sp3y53F0xDr77kmm','anonymous'),(3,0,_binary '','hoshimiya.kate@acme.com','Kate','Hoshimiya','$2a$05$HuznQYoBvFXWR/pNnPiCiuJKJQBNR5cY.Ept6VjNwukExXpHHUuZO','venera'),(5,0,_binary '','usada.pekora@acme.com','Pekora','Usada','$2a$05$Xd/ZRtn2SMwYvW9bqS8ybeCGyXRCZa5bFDE7bNHL0BnqK3qQcbLMG','usuario'),(7,0,_binary '','administrator@acme.com','Administrator','Acme.com','$2a$05$xbMiCMfKoIzc7Srlt7JF0uOoRI4dARWc1fbQDAwB1wgpE5rzhTKCK','administrator'),(10,0,_binary '','admin@acme.com','Admin','Acme.com','$2a$05$uIVafjzqlavikvEcv31m4OH/3UZWlEqzlDhMasNsyCVbgmHH54roy','admin');
 /*!40000 ALTER TABLE `user_account` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -596,4 +608,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-08-04 23:52:59
+-- Dump completed on 2020-09-01  1:17:58
